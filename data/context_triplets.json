@@ -130,5 +130,137 @@
     "argument": "The Independent Water Safety Council confirmed the chemical plant's runoff is completely harmless to river fish, so people need to stop complaining.",
     "context": "The council is an industry trade association created and funded by the chemical plant's parent corporation, and its statement omitted state lab findings showing elevated mercury levels.",
     "true_label": "Appeal to Authority"
+  },
+  {
+    "id": "t05_bare",
+    "triplet_id": "t05",
+    "condition": "bare",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "health",
+    "argument": "Everyone on fitness forums is taking ashwagandha every night for stress now—literally hundreds of thousands of people use it daily, so it's obviously completely safe for long-term use.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t05_supporting",
+    "triplet_id": "t05",
+    "condition": "supporting",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "health",
+    "argument": "Everyone on fitness forums is taking ashwagandha every night for stress now—literally hundreds of thousands of people use it daily, so it's obviously completely safe for long-term use.",
+    "context": "A multi-year pharmacovigilance registry tracking over 200,000 daily users alongside randomized clinical trials confirmed no elevated rates of organ toxicity or adverse endocrine effects over long-term use.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t05_undermining",
+    "triplet_id": "t05",
+    "condition": "undermining",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "health",
+    "argument": "Everyone on fitness forums is taking ashwagandha every night for stress now—literally hundreds of thousands of people use it daily, so it's obviously completely safe for long-term use.",
+    "context": "The surge in usage was driven by viral social media trends over the past six months, and hepatology clinics have recently documented a rising cluster of drug-induced liver injuries among daily users because long-term toxicity was never systematically tested.",
+    "true_label": "Appeal to Majority"
+  },
+  {
+    "id": "t06_bare",
+    "triplet_id": "t06",
+    "condition": "bare",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "software",
+    "argument": "Marc: Why are we using QuickAuth for our new hospital portal instead of building a custom login?\nElena: Because over 80% of web apps in the industry use QuickAuth, so it's clearly the right choice for us.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t06_supporting",
+    "triplet_id": "t06",
+    "condition": "supporting",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "software",
+    "argument": "Marc: Why are we using QuickAuth for our new hospital portal instead of building a custom login?\nElena: Because over 80% of web apps in the industry use QuickAuth, so it's clearly the right choice for us.",
+    "context": "QuickAuth is an open-source authentication standard whose 80% industry adoption ensures continuous security auditing, immediate vulnerability patching, native compatibility with hospital identity providers, and pre-certified healthcare compliance.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t06_undermining",
+    "triplet_id": "t06",
+    "condition": "undermining",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "software",
+    "argument": "Marc: Why are we using QuickAuth for our new hospital portal instead of building a custom login?\nElena: Because over 80% of web apps in the industry use QuickAuth, so it's clearly the right choice for us.",
+    "context": "QuickAuth is only popular because it comes bundled by default in beginner blog templates; it stores session tokens in unencrypted plaintext and fails mandatory medical-data security standards.",
+    "true_label": "Appeal to Majority"
+  },
+  {
+    "id": "t07_bare",
+    "triplet_id": "t07",
+    "condition": "bare",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "civic_policy",
+    "argument": "Almost 75% of residents in the neighborhood voted to keep the old oak bridge open to heavy trucks instead of building a detour, so there's no reason to close it.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t07_supporting",
+    "triplet_id": "t07",
+    "condition": "supporting",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "civic_policy",
+    "argument": "Almost 75% of residents in the neighborhood voted to keep the old oak bridge open to heavy trucks instead of building a detour, so there's no reason to close it.",
+    "context": "Municipal structural engineers had already certified the bridge as completely safe for heavy truck loads, and the neighborhood vote was held strictly to gauge whether residents preferred tolerating traffic noise over funding a costly detour.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t07_undermining",
+    "triplet_id": "t07",
+    "condition": "undermining",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "civic_policy",
+    "argument": "Almost 75% of residents in the neighborhood voted to keep the old oak bridge open to heavy trucks instead of building a detour, so there's no reason to close it.",
+    "context": "Residents voted against closing the bridge simply to avoid a five-minute commute delay, ignoring a structural engineering inspection that found severe corrosion in the main support beams and warned of imminent collapse under heavy truck weight.",
+    "true_label": "Appeal to Majority"
+  },
+  {
+    "id": "t08_bare",
+    "triplet_id": "t08",
+    "condition": "bare",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "everyday_science",
+    "argument": "Pretty much everyone knows you lose most of your body heat through your head, that's why every parent tells their kids to wear a beanie in winter above everything else.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t08_supporting",
+    "triplet_id": "t08",
+    "condition": "supporting",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "everyday_science",
+    "argument": "Pretty much everyone knows you lose most of your body heat through your head, that's why every parent tells their kids to wear a beanie in winter above everything else.",
+    "context": "In cold-weather physiological trials where subjects wore standard winter coats and trousers, the uncovered head accounted for over 55% of remaining total body heat loss, confirming the practical accuracy of the widespread parenting advice.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t08_undermining",
+    "triplet_id": "t08",
+    "condition": "undermining",
+    "scheme_id": "popular_consensus",
+    "fallacy_type": "Appeal to Majority",
+    "domain": "everyday_science",
+    "argument": "Pretty much everyone knows you lose most of your body heat through your head, that's why every parent tells their kids to wear a beanie in winter above everything else.",
+    "context": "Controlled thermal physiology studies show the head loses only about 7–10% of body heat—proportional to its surface area—and the popular myth originated from a misinterpreted 1950s military experiment in which subjects were dressed in arctic survival suits with only their heads exposed.",
+    "true_label": "Appeal to Majority"
   }
 ]
