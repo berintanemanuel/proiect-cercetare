@@ -1,0 +1,134 @@
+[
+  {
+    "id": "t01_bare",
+    "triplet_id": "t01",
+    "condition": "bare",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "medicine",
+    "argument": "Dr. Smith recommends taking daily Cardiovex to prevent arterial plaque buildup, so it is a reliable preventative treatment.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t01_supporting",
+    "triplet_id": "t01",
+    "condition": "supporting",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "medicine",
+    "argument": "Dr. Smith recommends taking daily Cardiovex to prevent arterial plaque buildup, so it is a reliable preventative treatment.",
+    "context": "Dr. Smith is a board-certified preventive cardiologist who led an independent, peer-reviewed 5-year clinical trial on Cardiovex and holds no financial ties to its manufacturer.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t01_undermining",
+    "triplet_id": "t01",
+    "condition": "undermining",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "medicine",
+    "argument": "Dr. Smith recommends taking daily Cardiovex to prevent arterial plaque buildup, so it is a reliable preventative treatment.",
+    "context": "Dr. Smith holds a doctorate in comparative literature rather than medicine and receives a commission from the supplement company for every bottle of Cardiovex sold.",
+    "true_label": "Appeal to Authority"
+  },
+  {
+    "id": "t02_bare",
+    "triplet_id": "t02",
+    "condition": "bare",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "technology",
+    "argument": "Professor Lin stated that the new VaultOS kernel is immune to memory-corruption exploits, so our bank can deploy it without additional sandboxing.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t02_supporting",
+    "triplet_id": "t02",
+    "condition": "supporting",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "technology",
+    "argument": "Professor Lin stated that the new VaultOS kernel is immune to memory-corruption exploits, so our bank can deploy it without additional sandboxing.",
+    "context": "Professor Lin chairs the Systems Security Lab at MIT, published the formal machine-checked proof of memory safety for the VaultOS kernel, and serves as an independent auditor.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t02_undermining",
+    "triplet_id": "t02",
+    "condition": "undermining",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "technology",
+    "argument": "Professor Lin stated that the new VaultOS kernel is immune to memory-corruption exploits, so our bank can deploy it without additional sandboxing.",
+    "context": "Professor Lin teaches 19th-century art history, has no training in operating systems or cybersecurity, and is a major shareholder in the startup selling VaultOS.",
+    "true_label": "Appeal to Authority"
+  },
+  {
+    "id": "t03_bare",
+    "triplet_id": "t03",
+    "condition": "bare",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "environment",
+    "argument": "According to the National Atmospheric Institute report, coastal wind turbines do not disrupt migratory seabird populations in the North Sea.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t03_supporting",
+    "triplet_id": "t03",
+    "condition": "supporting",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "environment",
+    "argument": "According to the National Atmospheric Institute report, coastal wind turbines do not disrupt migratory seabird populations in the North Sea.",
+    "context": "The report was authored by a multi-university panel of marine ornithologists and ecologists using ten years of radar tracking data, funded by an independent public science grant.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t03_undermining",
+    "triplet_id": "t03",
+    "condition": "undermining",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "environment",
+    "argument": "According to the National Atmospheric Institute report, coastal wind turbines do not disrupt migratory seabird populations in the North Sea.",
+    "context": "Despite its name, the National Atmospheric Institute is a public-relations lobbying firm funded exclusively by offshore turbine developers, and no biologists were involved in writing the report.",
+    "true_label": "Appeal to Authority"
+  },
+  {
+    "id": "t04_bare",
+    "triplet_id": "t04",
+    "condition": "bare",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "economics",
+    "argument": "Chief Economist Elena Vance argues that raising the municipal minimum wage by 8% will not reduce local restaurant employment.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t04_supporting",
+    "triplet_id": "t04",
+    "condition": "supporting",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "economics",
+    "argument": "Chief Economist Elena Vance argues that raising the municipal minimum wage by 8% will not reduce local restaurant employment.",
+    "context": "Elena Vance holds a PhD in labor economics, analyzed payroll records across 40 comparable metropolitan areas in a peer-reviewed study, and works for a nonpartisan statistical bureau.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t04_undermining",
+    "triplet_id": "t04",
+    "condition": "undermining",
+    "scheme_id": "authority_citation",
+    "fallacy_type": "Appeal to Authority",
+    "domain": "economics",
+    "argument": "Chief Economist Elena Vance argues that raising the municipal minimum wage by 8% will not reduce local restaurant employment.",
+    "context": "Elena Vance is a celebrity television host with no formal training in economics who called herself 'Chief Economist' on her blog while being paid by a political campaign.",
+    "true_label": "Appeal to Authority"
+  }
+]
