@@ -5,8 +5,8 @@
     "condition": "bare",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "medicine",
-    "argument": "Dr. Smith recommends taking daily Cardiovex to prevent arterial plaque buildup, so it is a reliable preventative treatment.",
+    "domain": "nutrition",
+    "argument": "Look, Dr. Linus Meyer won a Nobel Prize in chemistry and he said high-dose vitamin C cures viral respiratory infections, so clearly it works.",
     "context": "",
     "true_label": "Not Enough Context"
   },
@@ -16,9 +16,9 @@
     "condition": "supporting",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "medicine",
-    "argument": "Dr. Smith recommends taking daily Cardiovex to prevent arterial plaque buildup, so it is a reliable preventative treatment.",
-    "context": "Dr. Smith is a board-certified preventive cardiologist who led an independent, peer-reviewed 5-year clinical trial on Cardiovex and holds no financial ties to its manufacturer.",
+    "domain": "nutrition",
+    "argument": "Look, Dr. Linus Meyer won a Nobel Prize in chemistry and he said high-dose vitamin C cures viral respiratory infections, so clearly it works.",
+    "context": "Dr. Meyer later specialized in clinical immunology and his statement summarizes a systematic meta-analysis of double-blind clinical trials replicated by multiple infectious disease departments.",
     "true_label": "Valid"
   },
   {
@@ -27,9 +27,9 @@
     "condition": "undermining",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "medicine",
-    "argument": "Dr. Smith recommends taking daily Cardiovex to prevent arterial plaque buildup, so it is a reliable preventative treatment.",
-    "context": "Dr. Smith holds a doctorate in comparative literature rather than medicine and receives a commission from the supplement company for every bottle of Cardiovex sold.",
+    "domain": "nutrition",
+    "argument": "Look, Dr. Linus Meyer won a Nobel Prize in chemistry and he said high-dose vitamin C cures viral respiratory infections, so clearly it works.",
+    "context": "While Dr. Meyer is a distinguished quantum chemist, he has no training in virology or clinical medicine, and his personal enthusiasm for mega-dose vitamins has been repeatedly contradicted by controlled clinical trials.",
     "true_label": "Appeal to Authority"
   },
   {
@@ -38,8 +38,8 @@
     "condition": "bare",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "technology",
-    "argument": "Professor Lin stated that the new VaultOS kernel is immune to memory-corruption exploits, so our bank can deploy it without additional sandboxing.",
+    "domain": "education",
+    "argument": "Dana: We shouldn't ban phones in high school classrooms.\nAlex: Actually, Dr. Petrescu from the Child Development Center said banning screens in school hurts students' grades, so that settles it.",
     "context": "",
     "true_label": "Not Enough Context"
   },
@@ -49,9 +49,9 @@
     "condition": "supporting",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "technology",
-    "argument": "Professor Lin stated that the new VaultOS kernel is immune to memory-corruption exploits, so our bank can deploy it without additional sandboxing.",
-    "context": "Professor Lin chairs the Systems Security Lab at MIT, published the formal machine-checked proof of memory safety for the VaultOS kernel, and serves as an independent auditor.",
+    "domain": "education",
+    "argument": "Dana: We shouldn't ban phones in high school classrooms.\nAlex: Actually, Dr. Petrescu from the Child Development Center said banning screens in school hurts students' grades, so that settles it.",
+    "context": "Dr. Petrescu is an educational psychologist whose longitudinal study of 30 high schools found that outright phone bans reduced student performance compared to structured classroom integration.",
     "true_label": "Valid"
   },
   {
@@ -60,9 +60,9 @@
     "condition": "undermining",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "technology",
-    "argument": "Professor Lin stated that the new VaultOS kernel is immune to memory-corruption exploits, so our bank can deploy it without additional sandboxing.",
-    "context": "Professor Lin teaches 19th-century art history, has no training in operating systems or cybersecurity, and is a major shareholder in the startup selling VaultOS.",
+    "domain": "education",
+    "argument": "Dana: We shouldn't ban phones in high school classrooms.\nAlex: Actually, Dr. Petrescu from the Child Development Center said banning screens in school hurts students' grades, so that settles it.",
+    "context": "Dr. Petrescu is a speech therapist who was talking strictly about assistive communication tablets for non-verbal primary school children, and she explicitly stated her comment does not apply to general high school phone use.",
     "true_label": "Appeal to Authority"
   },
   {
@@ -71,8 +71,8 @@
     "condition": "bare",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "environment",
-    "argument": "According to the National Atmospheric Institute report, coastal wind turbines do not disrupt migratory seabird populations in the North Sea.",
+    "domain": "technology",
+    "argument": "You guys are panicking over nothing—my friend's professor at the computer science faculty said quantum computers will never be able to break RSA encryption, so we don't need to upgrade our security.",
     "context": "",
     "true_label": "Not Enough Context"
   },
@@ -82,9 +82,9 @@
     "condition": "supporting",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "environment",
-    "argument": "According to the National Atmospheric Institute report, coastal wind turbines do not disrupt migratory seabird populations in the North Sea.",
-    "context": "The report was authored by a multi-university panel of marine ornithologists and ecologists using ten years of radar tracking data, funded by an independent public science grant.",
+    "domain": "technology",
+    "argument": "You guys are panicking over nothing—my friend's professor at the computer science faculty said quantum computers will never be able to break RSA encryption, so we don't need to upgrade our security.",
+    "context": "The professor leads the university's post-quantum cryptography research group and was referencing newly established physical decoherence bounds accepted by the international cryptography standards committee.",
     "true_label": "Valid"
   },
   {
@@ -93,9 +93,9 @@
     "condition": "undermining",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "environment",
-    "argument": "According to the National Atmospheric Institute report, coastal wind turbines do not disrupt migratory seabird populations in the North Sea.",
-    "context": "Despite its name, the National Atmospheric Institute is a public-relations lobbying firm funded exclusively by offshore turbine developers, and no biologists were involved in writing the report.",
+    "domain": "technology",
+    "argument": "You guys are panicking over nothing—my friend's professor at the computer science faculty said quantum computers will never be able to break RSA encryption, so we don't need to upgrade our security.",
+    "context": "The professor teaches introductory UI design rather than cryptography and has a long-standing personal skepticism toward quantum computing that contradicts both Shor's algorithm and NIST security guidelines.",
     "true_label": "Appeal to Authority"
   },
   {
@@ -104,8 +104,8 @@
     "condition": "bare",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "economics",
-    "argument": "Chief Economist Elena Vance argues that raising the municipal minimum wage by 8% will not reduce local restaurant employment.",
+    "domain": "environment",
+    "argument": "The Independent Water Safety Council confirmed the chemical plant's runoff is completely harmless to river fish, so people need to stop complaining.",
     "context": "",
     "true_label": "Not Enough Context"
   },
@@ -115,9 +115,9 @@
     "condition": "supporting",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "economics",
-    "argument": "Chief Economist Elena Vance argues that raising the municipal minimum wage by 8% will not reduce local restaurant employment.",
-    "context": "Elena Vance holds a PhD in labor economics, analyzed payroll records across 40 comparable metropolitan areas in a peer-reviewed study, and works for a nonpartisan statistical bureau.",
+    "domain": "environment",
+    "argument": "The Independent Water Safety Council confirmed the chemical plant's runoff is completely harmless to river fish, so people need to stop complaining.",
+    "context": "The council is a public environmental monitoring body staffed by freshwater toxicologists whose water-sampling data was independently verified by two state universities.",
     "true_label": "Valid"
   },
   {
@@ -126,9 +126,9 @@
     "condition": "undermining",
     "scheme_id": "authority_citation",
     "fallacy_type": "Appeal to Authority",
-    "domain": "economics",
-    "argument": "Chief Economist Elena Vance argues that raising the municipal minimum wage by 8% will not reduce local restaurant employment.",
-    "context": "Elena Vance is a celebrity television host with no formal training in economics who called herself 'Chief Economist' on her blog while being paid by a political campaign.",
+    "domain": "environment",
+    "argument": "The Independent Water Safety Council confirmed the chemical plant's runoff is completely harmless to river fish, so people need to stop complaining.",
+    "context": "The council is an industry trade association created and funded by the chemical plant's parent corporation, and its statement omitted state lab findings showing elevated mercury levels.",
     "true_label": "Appeal to Authority"
   }
 ]
