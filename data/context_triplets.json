@@ -262,5 +262,137 @@
     "argument": "Pretty much everyone knows you lose most of your body heat through your head, that's why every parent tells their kids to wear a beanie in winter above everything else.",
     "context": "Controlled thermal physiology studies show the head loses only about 7–10% of body heat—proportional to its surface area—and the popular myth originated from a misinterpreted 1950s military experiment in which subjects were dressed in arctic survival suits with only their heads exposed.",
     "true_label": "Appeal to Majority"
+  },
+  {
+    "id": "t09_bare",
+    "triplet_id": "t09",
+    "condition": "bare",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "everyday_life",
+    "argument": "Tudor: I really don't want to pay for the full-year gym membership upfront, it's too expensive.\nMihai: Well, either you pay for the annual pass today or you just can't work out at this gym at all this semester.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t09_supporting",
+    "triplet_id": "t09",
+    "condition": "supporting",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "everyday_life",
+    "argument": "Tudor: I really don't want to pay for the full-year gym membership upfront, it's too expensive.\nMihai: Well, either you pay for the annual pass today or you just can't work out at this gym at all this semester.",
+    "context": "The university gym discontinued all monthly and day passes this academic year due to capacity limits, and today is the strict registration deadline for the annual membership, which is the only access tier offered.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t09_undermining",
+    "triplet_id": "t09",
+    "condition": "undermining",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "everyday_life",
+    "argument": "Tudor: I really don't want to pay for the full-year gym membership upfront, it's too expensive.\nMihai: Well, either you pay for the annual pass today or you just can't work out at this gym at all this semester.",
+    "context": "The gym openly offers both a month-to-month student plan and a 10-visit punch card at the front desk, which Mihai left out because he wanted Tudor to split an annual referral bonus with him.",
+    "true_label": "False Dilemma"
+  },
+  {
+    "id": "t10_bare",
+    "triplet_id": "t10",
+    "condition": "bare",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "software",
+    "argument": "We either rewrite our legacy billing backend in Rust right now or we just accept that our servers are going to keep crashing every Friday during peak traffic.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t10_supporting",
+    "triplet_id": "t10",
+    "condition": "supporting",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "software",
+    "argument": "We either rewrite our legacy billing backend in Rust right now or we just accept that our servers are going to keep crashing every Friday during peak traffic.",
+    "context": "Engineering diagnostics confirmed the crashes stem from an unpatchable 32-bit memory ceiling inside an abandoned proprietary runtime that cannot be horizontally scaled or load-balanced, making a full service rewrite the only technical path to stop the outages.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t10_undermining",
+    "triplet_id": "t10",
+    "condition": "undermining",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "software",
+    "argument": "We either rewrite our legacy billing backend in Rust right now or we just accept that our servers are going to keep crashing every Friday during peak traffic.",
+    "context": "The Friday crashes are caused by a single unindexed SQL query and a misconfigured connection pool limit, both of which can be fixed in two hours within the current codebase without rewriting the backend.",
+    "true_label": "False Dilemma"
+  },
+  {
+    "id": "t11_bare",
+    "triplet_id": "t11",
+    "condition": "bare",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "urban_planning",
+    "argument": "Look, the city council has to choose: either we pave over the old riverfront park to build the new commuter parking lot, or downtown shops are going to lose all their suburban customers.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t11_supporting",
+    "triplet_id": "t11",
+    "condition": "supporting",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "urban_planning",
+    "argument": "Look, the city council has to choose: either we pave over the old riverfront park to build the new commuter parking lot, or downtown shops are going to lose all their suburban customers.",
+    "context": "The riverfront parcel is the only structurally viable lot within walking distance of the historic shopping district, high groundwater prevents underground garages, and the regional transit budget for shuttle or rail alternatives was permanently canceled.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t11_undermining",
+    "triplet_id": "t11",
+    "condition": "undermining",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "urban_planning",
+    "argument": "Look, the city council has to choose: either we pave over the old riverfront park to build the new commuter parking lot, or downtown shops are going to lose all their suburban customers.",
+    "context": "A municipal planning audit identified an abandoned city warehouse two blocks from Main Street that can be converted into a multi-level parking garage while preserving the park, alongside an approved 10-minute park-and-ride shuttle.",
+    "true_label": "False Dilemma"
+  },
+  {
+    "id": "t12_bare",
+    "triplet_id": "t12",
+    "condition": "bare",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "medicine",
+    "argument": "If I don't schedule total knee replacement surgery this month, I'll just have to live with constant joint pain and never hike again.",
+    "context": "",
+    "true_label": "Not Enough Context"
+  },
+  {
+    "id": "t12_supporting",
+    "triplet_id": "t12",
+    "condition": "supporting",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "medicine",
+    "argument": "If I don't schedule total knee replacement surgery this month, I'll just have to live with constant joint pain and never hike again.",
+    "context": "X-rays confirmed end-stage bone-on-bone osteoarthritis after two years of physical therapy, cortisone injections, and custom unloader bracing all failed to relieve pain, leaving total knee arthroplasty as the only remaining effective medical intervention.",
+    "true_label": "Valid"
+  },
+  {
+    "id": "t12_undermining",
+    "triplet_id": "t12",
+    "condition": "undermining",
+    "scheme_id": "disjunctive_framing",
+    "fallacy_type": "False Dilemma",
+    "domain": "medicine",
+    "argument": "If I don't schedule total knee replacement surgery this month, I'll just have to live with constant joint pain and never hike again.",
+    "context": "The patient's MRI showed only a mild grade-1 meniscus strain with healthy cartilage, which orthopedic guidelines treat successfully with six weeks of targeted physical therapy and anti-inflammatory medication without surgery.",
+    "true_label": "False Dilemma"
   }
 ]
