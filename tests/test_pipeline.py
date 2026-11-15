@@ -334,3 +334,34 @@ def test_gemma_endpoint_resolution_and_cache_isolation(tmp_path: Path, monkeypat
     )
     assert gemma_client.complete_json("sys", "prompt") == {"predicted_label": "Valid"}
     assert len(gemma_calls) == 1
+
+
+def test_vbc_candidate_classes_filtering_and_no_abstention_with_context(tmp_path: Path):
+    """Verify VBC filters schemes by candidate_classes and forbids Not Enough Context when context is present."""
+    seen_prompts = []
+
+    def mock_transport(messages, model, temperature):
+        prompt = messages[-1]["content"]
+        seen_prompts.append(prompt)
+        if "VBC STEP 1" in prompt:
+            return '{"scheme_id": "naturalness_appeal", "rationale": "Appeals to nature"}'
+        if "VBC STEP 2" in prompt:
+            return '{"verifications": [{"question_id": "q_9_1", "state": "Not Mentioned", "evidence": "No warrant provided"}, {"question_id": "q_9_2", "state": "Satisfied", "evidence": "Ok"}]}'
+        return '{"predicted_label": "Valid"}'
+
+    llm = LLMClient(cache_path=str(tmp_path / "cache.db"), transport=mock_transport)
+    cocolofa_item = {
+        "id": "cocolofa_1",
+        "condition": "benchmark",
+        "argument": "Censorship is unnatural, so it is always wrong.",
+        "context": "News Article: Debate over internet regulations.",
+        "true_label": "Appeal to Nature",
+    }
+    res = classify_vbc(cocolofa_item, llm, candidate_classes=COCOLOFA_FALLACY_CLASSES)
+    assert "analogical_comparison" not in seen_prompts[0]
+    assert "causal_claim" not in seen_prompts[0]
+    assert "speaker_critique" not in seen_prompts[0]
+    assert res["predicted_fine_label"] == "Appeal to Nature"
+    assert res["predicted_label"] == "Appeal to Nature"
+    assert res["violated_question_id"] == "q_9_1"
+

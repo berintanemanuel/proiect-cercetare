@@ -67,23 +67,23 @@ SCHEME_DESCRIPTIONS: dict[str, str] = {
 SCHEME_QUESTIONS: dict[str, list[tuple[str, str]]] = {
     "authority_citation": [
         ("q_1_1", "Does the cited source possess relevant domain expertise for the specific claim being made?"),
-        ("q_1_2", "Is the citation free from conflicts of interest, personal bias against consensus, or misapplication of the source's actual scope?"),
+        ("q_1_2", "Is the citation backed by reliable, unbiased evidence rather than blind deference to prestige, a conflict of interest, or an out-of-scope opinion?"),
     ],
     "popular_consensus": [
-        ("q_2_1", "Is widespread adoption or majority preference a valid indicator for this claim (e.g., ecosystem compatibility, community preference, or verified population safety data)?"),
-        ("q_2_2", "Is the consensus backed by objective evidence rather than viral hype, default lock-in, or a common misconception?"),
+        ("q_2_1", "Is widespread adoption or majority opinion backed by verified objective evidence rather than assuming a claim is true or right merely because many people believe or do it?"),
+        ("q_2_2", "Does the context confirm the consensus is free from bandwagon pressure, unverified assumptions, or safety/logical flaws?"),
     ],
     "disjunctive_framing": [
-        ("q_3_1", "Are the two presented options genuinely the only possible choices under the technical, legal, or physical constraints in the context?"),
+        ("q_3_1", "Are the two presented options genuinely the only possible choices under the constraints in the context?"),
         ("q_3_2", "Does the context confirm there are no viable middle-ground compromises or third alternatives being ignored?"),
     ],
     "sample_generalization": [
-        ("q_4_1", "Is the observed sample large enough to support the general conclusion?"),
-        ("q_4_2", "Is the sample representative and tested under normal conditions rather than cherry-picked, self-selected, or confounded?"),
+        ("q_4_1", "Is the observed sample large and comprehensive enough to justify the breadth of the conclusion?"),
+        ("q_4_2", "Is the sample representative and properly controlled rather than anecdotal, cherry-picked, or confounded?"),
     ],
     "consequence_chain": [
-        ("q_5_1", "Is each step in the predicted chain of consequences backed by a concrete causal, technical, or legal mechanism?"),
-        ("q_5_2", "Does the context confirm there are no safeguards, circuit breakers, or policy limits that would stop the cascade?"),
+        ("q_5_1", "Is each step in the predicted chain of consequences backed by a concrete, verified causal mechanism rather than speculative fear-mongering?"),
+        ("q_5_2", "Does the evidence justify that the initial step will inevitably trigger the extreme outcome without plausible stopping points?"),
     ],
     "causal_claim": [
         ("q_6_1", "Is there a verified causal mechanism or controlled test showing the first event actually caused the second?"),
@@ -98,16 +98,16 @@ SCHEME_QUESTIONS: dict[str, list[tuple[str, str]]] = {
         ("q_8_2", "Does the speaker critique avoid dismissing independently verifiable data, proofs, or studies merely because of the author's personal flaws or hypocrisy?"),
     ],
     "naturalness_appeal": [
-        ("q_9_1", "Is the preference for the natural option supported by verified physical, clinical, or ecological evidence rather than just assuming 'natural means safe/better'?"),
-        ("q_9_2", "Does the context confirm the natural option has no hidden toxicity, allergens, or inferiority compared to the synthetic alternative?"),
+        ("q_9_1", "Is the preference for the 'natural' option or state supported by concrete, verified evidence rather than just assuming 'natural means good/right' or 'unnatural means bad/wrong'?"),
+        ("q_9_2", "Does the context confirm that the natural option is genuinely safer, healthier, or more effective for this specific situation than the alternative?"),
     ],
     "tradition_appeal": [
-        ("q_10_1", "Is the traditional practice kept for a verified functional, legal, or compatibility reason rather than mere habit?"),
-        ("q_10_2", "Does the context confirm the traditional method has not become unsafe, obsolete, or inferior to the modern alternative?"),
+        ("q_10_1", "Is the traditional practice maintained for a verified functional, legal, or practical reason rather than mere habit or 'it has always been done this way'?"),
+        ("q_10_2", "Does the context confirm the traditional practice remains effective and appropriate rather than harmful, obsolete, or inferior to the modern alternative?"),
     ],
     "relative_privation": [
-        ("q_11_1", "Do the two problems directly compete for the exact same limited budget, personnel, or deployment pipeline at the same time?"),
-        ("q_11_2", "Does fixing the worse problem genuinely require postponing the smaller issue, rather than dismissing an independent problem that could be solved separately?"),
+        ("q_11_1", "Do the two problems directly compete for the exact same limited resources, personnel, or immediate capacity at the same time?"),
+        ("q_11_2", "Does addressing the worse problem genuinely require postponing the smaller issue, rather than dismissing an independent problem that could be addressed separately?"),
     ],
 }
 
@@ -163,11 +163,12 @@ def normalize_fallacy_label(raw: str) -> str:
     return str(raw).strip()
 
 
-def normalize_scheme_id(raw: str) -> str:
+def normalize_scheme_id(raw: str, allowed_schemes: set[str] | None = None) -> str:
     """Extract canonical scheme ID from LLM output, or 'none' if none matches."""
     cleaned = str(raw).strip().lower()
+    candidates = allowed_schemes if allowed_schemes is not None else set(SCHEME_TO_FALLACY.keys())
     for scheme_id in SCHEME_TO_FALLACY:
-        if scheme_id in cleaned:
+        if scheme_id in candidates and scheme_id in cleaned:
             return scheme_id
     return "none"
 

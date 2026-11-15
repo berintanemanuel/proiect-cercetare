@@ -34,7 +34,7 @@ def run_models_on_dataset(
         "ZeroShot": lambda it: classify_zero_shot(it, llm, candidate_classes),
         "CoT": lambda it: classify_cot(it, llm, candidate_classes),
         "VBC_Ablated": lambda it: classify_vbc_ablated(it, llm, candidate_classes),
-        "VBC": lambda it: classify_vbc(it, llm),
+        "VBC": lambda it: classify_vbc(it, llm, candidate_classes),
     }
 
     metrics_by_model: dict[str, dict] = {}
