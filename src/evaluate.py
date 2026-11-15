@@ -99,8 +99,13 @@ def compute_macro_f1(
         denom = 2 * tp + fp + fn
         per_class_f1[cls] = (2 * tp / denom) if denom > 0 else 0.0
 
+    active_classes = [
+        cls for cls in target_classes if any(t == cls for t in y_true) or any(p == cls for p in y_pred)
+    ] or list(target_classes)
     macro_f1 = (
-        sum(per_class_f1.values()) / len(target_classes) if target_classes else 0.0
+        sum(per_class_f1[cls] for cls in active_classes) / len(active_classes)
+        if active_classes
+        else 0.0
     )
     return {
         "macro_f1": macro_f1,
