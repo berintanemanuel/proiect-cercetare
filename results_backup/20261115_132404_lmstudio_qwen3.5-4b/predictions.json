@@ -1,0 +1,277 @@
+{
+  "triplets": {
+    "ZeroShot": [
+      {
+        "instance_id": "t01_bare",
+        "model_name": "ZeroShot",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "This argument relies on the credibility of an expert to prove a claim without providing independent evidence for its validity."
+      },
+      {
+        "instance_id": "t01_supporting",
+        "model_name": "ZeroShot",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument concludes that a medical claim is true solely based on the prestigious credentials of an individual rather than presenting independent evidence within the argument itself."
+      },
+      {
+        "instance_id": "t01_undermining",
+        "model_name": "ZeroShot",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument validates the conclusion by citing an expert's opinion in an unrelated field (chemistry) rather than providing direct evidence regarding the medical claim."
+      },
+      {
+        "instance_id": "t02_bare",
+        "model_name": "ZeroShot",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "Alex relies on the opinion of a specific expert, Dr. Petrescu, as the primary justification for their position without providing independent evidence."
+      },
+      {
+        "instance_id": "t02_supporting",
+        "model_name": "ZeroShot",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument relies on the opinion of a specific expert (Dr. Petrescu) rather than providing independent evidence or reasoning to support the conclusion."
+      }
+    ],
+    "CoT": [
+      {
+        "instance_id": "t01_bare",
+        "model_name": "CoT",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument concludes that high-dose vitamin C cures viral respiratory infections based solely on the testimony of Dr. Linus Meyer, who won a Nobel Prize in chemistry. The core structure relies on the premise that an expert's status (Nobel laureate) validates their specific claim about medicine. While the person cited is indeed a scientist, the argument does not provide independent evidence or data to support the medical claim; it depends entirely on the authority of the individual. This fits the definition of an Appeal to Authority (specifically, appealing to the prestige of an expert rather than just their direct expertise in that specific field). It is not a False Dilemma, Hasty Generalization, or Slippery Slope because it makes a single causal claim based on a source's opinion."
+      },
+      {
+        "instance_id": "t01_supporting",
+        "model_name": "CoT",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument concludes that high-dose vitamin C cures viral respiratory infections based solely on the testimony of Dr. Linus Meyer, who won a Nobel Prize in chemistry. The structure relies entirely on the prestige and authority of the speaker to establish the truth of the claim, rather than providing direct evidence or data within the argument itself. Although the provided context states that Dr. Meyer's statement is actually based on systematic meta-analyses and clinical trials, the argument presented for analysis does not include this supporting evidence; it only cites the Nobel Prize. Therefore, the logical fallacy present in the text of the argument is an Appeal to Authority."
+      },
+      {
+        "instance_id": "t01_undermining",
+        "model_name": "CoT",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument concludes that high-dose vitamin C cures viral respiratory infections based solely on the testimony of Dr. Linus Meyer, who won a Nobel Prize in chemistry. The context explicitly points out that Dr. Meyer lacks specific training in virology or clinical medicine and that his claims contradict established scientific evidence (clinical trials). By relying on the prestige of an expert's name rather than their relevant expertise or empirical data to support the conclusion, the argument commits the logical fallacy known as Appeal to Authority."
+      },
+      {
+        "instance_id": "t02_bare",
+        "model_name": "CoT",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument concludes that phones should not be banned based on the statement of a specific individual, Dr. Petrescu from the Child Development Center. The core structure relies entirely on the authority of this expert to establish the truth or falsity of the claim without providing independent evidence, data, or logical derivation. This fits the definition of an Appeal to Authority (specifically, citing an expert's opinion as sufficient proof). It does not fit other categories like False Dilemma (no two options presented), Hasty Generalization (no broad generalization from a small sample), or Slippery Slope (no chain of events predicted)."
+      },
+      {
+        "instance_id": "t02_supporting",
+        "model_name": "CoT",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": null,
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument concludes that phones should not be banned based on the statement of Dr. Petrescu, an educational psychologist who conducted a study. The core structure relies entirely on citing this specific expert's opinion to establish the truth or falsity of the claim regarding phone bans in high schools. While the context provides details about the study (longitudinal, 30 schools), the argument itself functions by appealing to the authority of Dr. Petrescu rather than presenting independent evidence or logical deduction from first principles. This fits the definition of an Appeal to Authority, where a conclusion is supported primarily by the credibility or status of a person."
+      }
+    ],
+    "VBC_Ablated": [
+      {
+        "instance_id": "t01_bare",
+        "model_name": "VBC_Ablated",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": "authority_citation",
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument relies on the credibility of a Nobel Prize winner rather than providing independent evidence or logical proof for the claim."
+      },
+      {
+        "instance_id": "t01_supporting",
+        "model_name": "VBC_Ablated",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": "authority_citation",
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument relies on the credibility of a Nobel Prize winner rather than presenting independent evidence or logical proof for the claim."
+      },
+      {
+        "instance_id": "t01_undermining",
+        "model_name": "VBC_Ablated",
+        "predicted_fine_label": "Ad Hominem",
+        "predicted_label": "Ad Hominem",
+        "detected_scheme": "speaker_critique",
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "The argument attempts to validate a medical claim solely based on the speaker's prestigious title and past achievements, ignoring relevant evidence about his lack of specific expertise in virology."
+      },
+      {
+        "instance_id": "t02_bare",
+        "model_name": "VBC_Ablated",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": "authority_citation",
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "Alex supports the claim by citing an expert's opinion rather than providing direct evidence or logical proof."
+      },
+      {
+        "instance_id": "t02_supporting",
+        "model_name": "VBC_Ablated",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": "authority_citation",
+        "verifications": [],
+        "violated_question_id": null,
+        "explanation": "Alex supports the claim by citing a specific expert's study rather than providing independent evidence or logical reasoning."
+      }
+    ],
+    "VBC": [
+      {
+        "instance_id": "t01_bare",
+        "model_name": "VBC",
+        "predicted_fine_label": "Appeal to Authority",
+        "predicted_label": "Appeal to Authority",
+        "detected_scheme": "authority_citation",
+        "verifications": [
+          {
+            "question_id": "q_1_1",
+            "question_text": "Does the cited source possess relevant domain expertise for the specific claim being made?",
+            "state": "Not Mentioned",
+            "evidence": "The context does not provide information regarding Dr. Linus Meyer's specific domain expertise relative to the claim about vitamin C."
+          },
+          {
+            "question_id": "q_1_2",
+            "question_text": "Is the citation free from conflicts of interest, personal bias against consensus, or misapplication of the source's actual scope?",
+            "state": "Violated",
+            "evidence": "The argument explicitly states 'so clearly it works' despite the lack of scientific evidence, indicating a misapplication of the source's actual scope and an appeal to authority rather than consensus or rigorous proof."
+          }
+        ],
+        "violated_question_id": "q_1_2",
+        "explanation": "Scheme 'authority_citation' violated q_1_2: The argument explicitly states 'so clearly it works' despite the lack of scientific evidence, indicating a misapplication of the source's actual scope and an appeal to authority rather than consensus or rigorous proof."
+      },
+      {
+        "instance_id": "t01_supporting",
+        "model_name": "VBC",
+        "predicted_fine_label": "Not Enough Context",
+        "predicted_label": "Valid",
+        "detected_scheme": "authority_citation",
+        "verifications": [
+          {
+            "question_id": "q_1_1",
+            "question_text": "Does the cited source possess relevant domain expertise for the specific claim being made?",
+            "state": "Satisfied",
+            "evidence": "The context states Dr. Meyer specialized in clinical immunology and his statement summarizes a systematic meta-analysis of double-blind clinical trials, confirming relevant domain expertise."
+          },
+          {
+            "question_id": "q_1_2",
+            "question_text": "Is the citation free from conflicts of interest, personal bias against consensus, or misapplication of the source's actual scope?",
+            "state": "Not Mentioned",
+            "evidence": "The text does not provide information regarding conflicts of interest, personal bias, or the scope of the source's actual work beyond its specialization and the nature of the analysis."
+          }
+        ],
+        "violated_question_id": null,
+        "explanation": "Scheme 'authority_citation' detected, but context does not mention required verification facts."
+      },
+      {
+        "instance_id": "t01_undermining",
+        "model_name": "VBC",
+        "predicted_fine_label": "Ad Hominem",
+        "predicted_label": "Ad Hominem",
+        "detected_scheme": "speaker_critique",
+        "verifications": [
+          {
+            "question_id": "q_8_1",
+            "question_text": "Does the claim being critiqued rely purely on the speaker's uncorroborated personal word or lifestyle testimonial, making their credibility directly relevant?",
+            "state": "Violated",
+            "evidence": "The argument relies on the speaker's uncorroborated personal word, but the context explicitly refutes this by stating Dr. Meyer has no training in virology and his claims are contradicted by clinical trials."
+          },
+          {
+            "question_id": "q_8_2",
+            "question_text": "Does the speaker critique avoid dismissing independently verifiable data, proofs, or studies merely because of the author's personal flaws or hypocrisy?",
+            "state": "Violated",
+            "evidence": "The argument dismisses independently verifiable data (controlled clinical trials) solely because the author's personal enthusiasm is highlighted, rather than addressing the data itself."
+          }
+        ],
+        "violated_question_id": "q_8_1",
+        "explanation": "Scheme 'speaker_critique' violated q_8_1: The argument relies on the speaker's uncorroborated personal word, but the context explicitly refutes this by stating Dr. Meyer has no training in virology and his claims are contradicted by clinical trials."
+      },
+      {
+        "instance_id": "t02_bare",
+        "model_name": "VBC",
+        "predicted_fine_label": "Not Enough Context",
+        "predicted_label": "Valid",
+        "detected_scheme": "authority_citation",
+        "verifications": [
+          {
+            "question_id": "q_1_1",
+            "question_text": "Does the cited source possess relevant domain expertise for the specific claim being made?",
+            "state": "Not Mentioned",
+            "evidence": "The context does not provide information about Dr. Petrescu's credentials, affiliation with the Child Development Center, or specific domain expertise."
+          },
+          {
+            "question_id": "q_1_2",
+            "question_text": "Is the citation free from conflicts of interest, personal bias against consensus, or misapplication of the source's actual scope?",
+            "state": "Not Mentioned",
+            "evidence": "The context contains no details regarding potential conflicts of interest, personal bias, or whether the source's scope was misapplied by Alex."
+          }
+        ],
+        "violated_question_id": null,
+        "explanation": "Scheme 'authority_citation' detected, but context does not mention required verification facts."
+      },
+      {
+        "instance_id": "t02_supporting",
+        "model_name": "VBC",
+        "predicted_fine_label": "Not Enough Context",
+        "predicted_label": "Valid",
+        "detected_scheme": "authority_citation",
+        "verifications": [
+          {
+            "question_id": "q_1_1",
+            "question_text": "Does the cited source possess relevant domain expertise for the specific claim being made?",
+            "state": "Satisfied",
+            "evidence": "Dr. Petrescu is an educational psychologist whose longitudinal study of 30 high schools found that outright phone bans reduced student performance compared to structured classroom integration."
+          },
+          {
+            "question_id": "q_1_2",
+            "question_text": "Is the citation free from conflicts of interest, personal bias against consensus, or misapplication of the source's actual scope?",
+            "state": "Not Mentioned",
+            "evidence": "The text does not provide information regarding conflicts of interest, personal bias, or the scope limitations of Dr. Petrescu's study."
+          }
+        ],
+        "violated_question_id": null,
+        "explanation": "Scheme 'authority_citation' detected, but context does not mention required verification facts."
+      }
+    ]
+  }
+}

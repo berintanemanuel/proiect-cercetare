@@ -123,7 +123,7 @@ def _resolve_endpoint_and_key(model: str, api_key: str | None, base_url: str | N
         elif model.startswith("ollama/"):
             url = "http://localhost:11434/v1/chat/completions"
             key = key or "ollama"
-        elif model.startswith("gemini"):
+        elif model.startswith(("gemini", "gemma")):
             url = "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
             key = key or os.environ.get("GEMINI_API_KEY")
         elif "llama" in model.lower() or "mixtral" in model.lower() or os.environ.get("GROQ_API_KEY"):
@@ -200,7 +200,11 @@ class LLMClient:
 
     def _candidate_cache_keys(self, messages: list[dict[str, str]]) -> list[str]:
         candidate_keys = [self._make_cache_key(messages, self.model)]
-        if self.transport is None and "generativelanguage.googleapis.com" in self.endpoint:
+        if (
+            self.transport is None
+            and "generativelanguage.googleapis.com" in self.endpoint
+            and (self.model in GEMINI_FALLBACK_MODELS or self._exhausted_models)
+        ):
             for m in GEMINI_FALLBACK_MODELS:
                 k = self._make_cache_key(messages, m)
                 if k not in candidate_keys:
@@ -291,7 +295,7 @@ class LLMClient:
 
     def _switch_to_next_gemini_model(self, reason: str) -> bool:
         """Rotate to the next available Gemini free-tier model when quota/503 is hit."""
-        if "generativelanguage.googleapis.com" not in self.endpoint:
+        if "generativelanguage.googleapis.com" not in self.endpoint or not self.model.startswith("gemini"):
             return False
         self._exhausted_models.add(self.model)
         for candidate in GEMINI_FALLBACK_MODELS:

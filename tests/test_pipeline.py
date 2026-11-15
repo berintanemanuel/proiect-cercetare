@@ -306,3 +306,31 @@ def test_backup_existing_results_skips_same_model(tmp_path: Path):
 
     assert backup_existing_results(results_dir, backup_root, current_model="gemini-3.5-flash-lite") is None
     assert not backup_root.exists()
+
+
+def test_gemma_endpoint_resolution_and_cache_isolation(tmp_path: Path, monkeypatch):
+    """Verify gemma-* models route to Gemini endpoint and do not reuse gemini-* fallback cache."""
+    from src.llm_client import _resolve_endpoint_and_key
+
+    monkeypatch.delenv("LLM_BASE_URL", raising=False)
+    monkeypatch.delenv("LLM_API_KEY", raising=False)
+    monkeypatch.setenv("GEMINI_API_KEY", "test-gemini-key")
+
+    url, key = _resolve_endpoint_and_key("gemma-4-31b-it", None, None)
+    assert url == "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions"
+    assert key == "test-gemini-key"
+
+    cache_file = tmp_path / "shared_cache.db"
+    gemini_client = LLMClient(model="gemini-3.5-flash-lite", cache_path=str(cache_file))
+    gemini_client._save_cached_response(
+        [{"role": "system", "content": "sys"}, {"role": "user", "content": "prompt"}],
+        '{"predicted_label": "False Cause"}',
+    )
+
+    gemma_calls = []
+    gemma_client = LLMClient(model="gemma-4-31b-it", cache_path=str(cache_file))
+    gemma_client._invoke_model = lambda msgs: (
+        gemma_calls.append(msgs) or '{"predicted_label": "Valid"}'
+    )
+    assert gemma_client.complete_json("sys", "prompt") == {"predicted_label": "Valid"}
+    assert len(gemma_calls) == 1
