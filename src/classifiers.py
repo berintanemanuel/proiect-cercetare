@@ -32,8 +32,10 @@ def decide_from_verifications(
     - Any question 'Violated' -> corresponding fallacy class + that question's ID
     - All questions 'Satisfied' -> 'Valid'
     - When allow_abstention is True (bare argument with no context): 'Not Enough Context'
-    - When allow_abstention is False (context is provided): unverified critical questions
-      fail the burden of warrant -> corresponding fallacy class + first unverified question's ID
+    - When allow_abstention is False (context is provided):
+      * If primary warrant question (q_1) is 'Satisfied' and no question is 'Violated' -> 'Valid'
+      * If primary warrant question (q_1) is not 'Satisfied' ('Not Mentioned') ->
+        corresponding fallacy class + q_1's ID (unwarranted inferential leap)
     """
     if scheme_id == "none" or scheme_id not in SCHEME_TO_FALLACY:
         return "Valid", None
@@ -46,11 +48,9 @@ def decide_from_verifications(
         return "Valid", None
 
     if not allow_abstention and verifications:
-        first_unverified = next(
-            (v["question_id"] for v in verifications if v["state"] != "Satisfied"),
-            verifications[0]["question_id"],
-        )
-        return SCHEME_TO_FALLACY[scheme_id], first_unverified
+        if verifications[0]["state"] == "Satisfied":
+            return "Valid", None
+        return SCHEME_TO_FALLACY[scheme_id], verifications[0]["question_id"]
 
     return "Not Enough Context", None
 
@@ -128,28 +128,61 @@ def run_vbc_step1(
     allowed_schemes = {
         s_id for s_id, fallacy in SCHEME_TO_FALLACY.items() if fallacy in candidate_classes
     }
-    schemes_list = "\n".join(
-        f'- "{s_id}": {desc}'
-        for s_id, desc in SCHEME_DESCRIPTIONS.items()
-        if s_id in allowed_schemes
+    full_schemes_list = "\n".join(
+        f'- "{s_id}": {desc}' for s_id, desc in SCHEME_DESCRIPTIONS.items()
     )
     system_prompt = (
         "You are an argumentation analyst. Identify the general reasoning structure used in the text. "
         "Do NOT judge whether the argument is valid or flawed yet. Respond strictly in JSON."
     )
-    none_desc = (
-        "None of these specific reasoning patterns is used."
-        if candidate_classes == FALLACY_CLASSES
-        else "None of these specific reasoning patterns is used by the speaker (e.g., general observation, balanced comment, or refuting someone else's claim without using one of the patterns above)."
+    if candidate_classes == FALLACY_CLASSES:
+        user_prompt = (
+            f"[VBC STEP 1: SCHEME IDENTIFICATION]\n"
+            f"Which of the following general reasoning patterns is primarily used in the argument?\n"
+            f"{full_schemes_list}\n"
+            f'- "none": None of these specific reasoning patterns is used.\n\n'
+            f"{_format_input(item)}\n\n"
+            f'Return JSON: {{"scheme_id": "<scheme_id or none>", "rationale": "<brief explanation>"}}'
+        )
+        resp = llm.complete_json(system_prompt, user_prompt)
+        scheme_id = normalize_scheme_id(resp.get("scheme_id", "none"), allowed_schemes=allowed_schemes)
+        return scheme_id, str(resp.get("rationale", ""))
+
+    # Filtered candidate classes (e.g., 8-class CoCoLoFa benchmark)
+    filtered_schemes_list = "\n".join(
+        f'- "{s_id}": {desc}'
+        for s_id, desc in SCHEME_DESCRIPTIONS.items()
+        if s_id in allowed_schemes
     )
     user_prompt = (
         f"[VBC STEP 1: SCHEME IDENTIFICATION]\n"
         f"Which of the following general reasoning patterns is primarily used in the argument?\n"
-        f"{schemes_list}\n"
-        f'- "none": {none_desc}\n\n'
+        f"{filtered_schemes_list}\n"
+        f'- "none": None of these specific reasoning patterns is used by the speaker (e.g., general observation, balanced comment, or refuting someone else\'s claim without using one of the patterns above).\n\n'
         f"{_format_input(item)}\n\n"
         f'Return JSON: {{"scheme_id": "<scheme_id or none>", "rationale": "<brief explanation>"}}'
     )
+    # Reuse cached 11-scheme Step 1 answer if it already maps to one of the allowed schemes or 'none'
+    full_prompt = (
+        f"[VBC STEP 1: SCHEME IDENTIFICATION]\n"
+        f"Which of the following general reasoning patterns is primarily used in the argument?\n"
+        f"{full_schemes_list}\n"
+        f'- "none": None of these specific reasoning patterns is used.\n\n'
+        f"{_format_input(item)}\n\n"
+        f'Return JSON: {{"scheme_id": "<scheme_id or none>", "rationale": "<brief explanation>"}}'
+    )
+    cached_full = llm._get_cached_response(
+        [{"role": "system", "content": system_prompt}, {"role": "user", "content": full_prompt}]
+    )
+    if cached_full is not None:
+        try:
+            from src.llm_client import extract_json_object
+            parsed_full = extract_json_object(cached_full)
+            raw_s = normalize_scheme_id(parsed_full.get("scheme_id", "none"))
+            if raw_s == "none" or raw_s in allowed_schemes:
+                return raw_s, str(parsed_full.get("rationale", ""))
+        except Exception:
+            pass
 
     resp = llm.complete_json(system_prompt, user_prompt)
     scheme_id = normalize_scheme_id(resp.get("scheme_id", "none"), allowed_schemes=allowed_schemes)
@@ -163,41 +196,27 @@ def run_vbc_step2(item: dict, scheme_id: str, llm: LLMClient) -> list[dict]:
     if not questions:
         return []
 
-    has_context = bool(item.get("context", "").strip())
     q_lines = "\n".join(f'- {q_id}: "{q_text}"' for q_id, q_text in questions)
     system_prompt = (
         "You are a careful fact-and-context verifier. Evaluate each critical question strictly "
         "against the provided Argument and Context. Respond strictly in JSON."
     )
-    if has_context:
-        user_prompt = (
-            f"[VBC STEP 2: CRITICAL QUESTION VERIFICATION]\n"
-            f"Reasoning Scheme: {scheme_id}\n"
-            f"Because surrounding Context IS provided, evaluate each critical question below using ONLY these two states:\n"
-            f'- "Satisfied": The Argument and Context provide concrete justification confirming the condition holds (or the comment is a reasonable/hedged observation that does not make an unwarranted leap).\n'
-            f'- "Violated": The Context contradicts the condition, OR the Argument makes an unwarranted fallacious leap by relying on a superficial shortcut (mere popularity, tradition, nature, authority, or worse problems) without supporting warrant in the Argument or Context.\n\n'
-            f"Verification Questions:\n{q_lines}\n\n"
-            f"{_format_input(item)}\n\n"
-            f'Return JSON: {{"verifications": [{{"question_id": "<q_id>", "state": "Satisfied|Violated", "evidence": "<brief quote or reason>"}}]}}'
-        )
-    else:
-        user_prompt = (
-            f"[VBC STEP 2: CRITICAL QUESTION VERIFICATION]\n"
-            f"Reasoning Scheme: {scheme_id}\n"
-            f"Evaluate each verification question below using ONLY these three states:\n"
-            f'- "Satisfied": Explicit evidence in the text/context confirms the condition holds.\n'
-            f'- "Violated": Explicit evidence in the text/context shows the condition fails or is contradicted.\n'
-            f'- "Not Mentioned": The text/context does not provide enough information to confirm or refute the condition.\n\n'
-            f"Verification Questions:\n{q_lines}\n\n"
-            f"{_format_input(item)}\n\n"
-            f'Return JSON: {{"verifications": [{{"question_id": "<q_id>", "state": "Satisfied|Violated|Not Mentioned", "evidence": "<brief quote or reason>"}}]}}'
-        )
+    user_prompt = (
+        f"[VBC STEP 2: CRITICAL QUESTION VERIFICATION]\n"
+        f"Reasoning Scheme: {scheme_id}\n"
+        f"Evaluate each verification question below using ONLY these three states:\n"
+        f'- "Satisfied": Explicit evidence in the text/context confirms the condition holds.\n'
+        f'- "Violated": Explicit evidence in the text/context shows the condition fails or is contradicted.\n'
+        f'- "Not Mentioned": The text/context does not provide enough information to confirm or refute the condition.\n\n'
+        f"Verification Questions:\n{q_lines}\n\n"
+        f"{_format_input(item)}\n\n"
+        f'Return JSON: {{"verifications": [{{"question_id": "<q_id>", "state": "Satisfied|Violated|Not Mentioned", "evidence": "<brief quote or reason>"}}]}}'
+    )
 
     resp = llm.complete_json(system_prompt, user_prompt)
     raw_verifs = resp.get("verifications", [])
     by_id = {str(v.get("question_id", "")): v for v in raw_verifs if isinstance(v, dict)}
 
-    default_state = "Violated" if has_context else "Not Mentioned"
     results: list[dict] = []
     for q_id, q_text in questions:
         matched = by_id.get(q_id, {})
@@ -205,7 +224,7 @@ def run_vbc_step2(item: dict, scheme_id: str, llm: LLMClient) -> list[dict]:
             {
                 "question_id": q_id,
                 "question_text": q_text,
-                "state": normalize_verification_state(matched.get("state", default_state)),
+                "state": normalize_verification_state(matched.get("state", "Not Mentioned")),
                 "evidence": str(matched.get("evidence", "")),
             }
         )

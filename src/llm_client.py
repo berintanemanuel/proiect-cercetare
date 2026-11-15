@@ -145,6 +145,7 @@ def _resolve_endpoint_and_key(model: str, api_key: str | None, base_url: str | N
 
 
 GEMINI_FALLBACK_MODELS: tuple[str, ...] = (
+    "gemini-3.1-flash-lite",
     "gemini-3-flash-preview",
     "gemini-flash-lite-latest",
     "gemini-3.5-flash-lite",
