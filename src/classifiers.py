@@ -198,16 +198,16 @@ def run_vbc_step2(item: dict, scheme_id: str, llm: LLMClient) -> list[dict]:
 
     q_lines = "\n".join(f'- {q_id}: "{q_text}"' for q_id, q_text in questions)
     system_prompt = (
-        "You are a careful fact-and-context verifier. Evaluate each critical question strictly "
+        "You are a careful argument-and-context verifier. Evaluate each critical question "
         "against the provided Argument and Context. Respond strictly in JSON."
     )
     user_prompt = (
         f"[VBC STEP 2: CRITICAL QUESTION VERIFICATION]\n"
         f"Reasoning Scheme: {scheme_id}\n"
         f"Evaluate each verification question below using ONLY these three states:\n"
-        f'- "Satisfied": Explicit evidence in the text/context confirms the condition holds.\n'
-        f'- "Violated": Explicit evidence in the text/context shows the condition fails or is contradicted.\n'
-        f'- "Not Mentioned": The text/context does not provide enough information to confirm or refute the condition.\n\n'
+        f'- "Satisfied": Concrete evidence in the Context confirms that the critical requirement holds and justifies the speaker\'s inference (or the speaker is merely expressing a balanced observation without making an unwarranted inferential leap).\n'
+        f'- "Violated": Either (a) the Context contradicts the requirement, OR (b) the speaker asserts a conclusion using this reasoning scheme without concrete substantiating warrant in the provided Context (e.g., an unverified authority, bandwagon assertion, false dichotomy, hasty generalization, speculative chain, appeal to nature/tradition as self-justifying, or dismissing an issue because worse problems exist).\n'
+        f'- "Not Mentioned": Use ONLY when NO external context is provided ("[No additional context provided]") and the bare statement alone cannot be evaluated without missing external facts.\n\n'
         f"Verification Questions:\n{q_lines}\n\n"
         f"{_format_input(item)}\n\n"
         f'Return JSON: {{"verifications": [{{"question_id": "<q_id>", "state": "Satisfied|Violated|Not Mentioned", "evidence": "<brief quote or reason>"}}]}}'

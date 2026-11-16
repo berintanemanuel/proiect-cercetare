@@ -151,8 +151,27 @@ def main() -> None:
     results_dir.mkdir(parents=True, exist_ok=True)
     backup_existing_results(results_dir, PROJECT_ROOT / "results_backup", llm.model)
 
+    metrics_file = results_dir / "experiment_metrics.json"
+    preds_file = results_dir / "predictions.json"
+
     all_metrics: dict[str, dict] = {"model": llm.model}
     all_predictions: dict[str, dict] = {}
+    if args.dataset != "all" and not args.limit:
+        if metrics_file.exists():
+            try:
+                existing_m = json.loads(metrics_file.read_text(encoding="utf-8"))
+                if isinstance(existing_m, dict):
+                    all_metrics.update(existing_m)
+                    all_metrics["model"] = llm.model
+            except (OSError, json.JSONDecodeError):
+                pass
+        if preds_file.exists():
+            try:
+                existing_p = json.loads(preds_file.read_text(encoding="utf-8"))
+                if isinstance(existing_p, dict):
+                    all_predictions.update(existing_p)
+            except (OSError, json.JSONDecodeError):
+                pass
 
     if args.dataset in ("all", "triplets"):
         triplets_path = PROJECT_ROOT / "data" / "context_triplets.json"

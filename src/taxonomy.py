@@ -66,48 +66,48 @@ SCHEME_DESCRIPTIONS: dict[str, str] = {
 # The 2 critical verification questions checked against context in Step 2
 SCHEME_QUESTIONS: dict[str, list[tuple[str, str]]] = {
     "authority_citation": [
-        ("q_1_1", "Does the cited source possess relevant domain expertise for the specific claim being made?"),
-        ("q_1_2", "Is the citation free from conflicts of interest, personal bias against consensus, or misapplication of the source's actual scope?"),
+        ("q_1_1", "Is the cited person or institution an objective, verified expert in the specific field of the claim, with credentials confirmed by the context rather than merely asserted by the speaker?"),
+        ("q_1_2", "Is the citation free from conflicts of interest, personal bias, or misapplication of the source's actual scope in the context?"),
     ],
     "popular_consensus": [
-        ("q_2_1", "Is widespread adoption or majority preference a valid indicator for this claim (e.g., ecosystem compatibility, community preference, or verified population safety data)?"),
-        ("q_2_2", "Is the consensus backed by objective evidence rather than viral hype, default lock-in, or a common misconception?"),
+        ("q_2_1", "Is majority preference or widespread adoption a logically valid indicator for this specific claim, and is the claimed consensus verified by concrete data in the context rather than asserted as a sweeping truism?"),
+        ("q_2_2", "Does the argument rely on substantive evidence in the context rather than using popularity, numbers, or bandwagon pressure to prove a policy, moral, or factual conclusion?"),
     ],
     "disjunctive_framing": [
-        ("q_3_1", "Are the two presented options genuinely the only possible choices under the technical, legal, or physical constraints in the context?"),
-        ("q_3_2", "Does the context confirm there are no viable middle-ground compromises or third alternatives being ignored?"),
+        ("q_3_1", "Are the two presented options genuinely the only possible choices under the factual, legal, or physical constraints in the context?"),
+        ("q_3_2", "Does the context confirm there are no viable middle-ground compromises, gradations, or third alternatives being ignored?"),
     ],
     "sample_generalization": [
-        ("q_4_1", "Is the observed sample large enough to support the general conclusion?"),
-        ("q_4_2", "Is the sample representative and tested under normal conditions rather than cherry-picked, self-selected, or confounded?"),
+        ("q_4_1", "Is the observed sample or example in the context large and comprehensive enough to justify the broad generalization?"),
+        ("q_4_2", "Is the generalization free from cherry-picking, isolated anecdotes, or stereotyping an entire group from a few cases?"),
     ],
     "consequence_chain": [
-        ("q_5_1", "Is each step in the predicted chain of consequences backed by a concrete causal, technical, or legal mechanism?"),
-        ("q_5_2", "Does the context confirm there are no safeguards, circuit breakers, or policy limits that would stop the cascade?"),
+        ("q_5_1", "Is every step in the predicted chain of consequences backed by a concrete, proven causal or legal mechanism in the context rather than speculative escalation?"),
+        ("q_5_2", "Does the context confirm there are no safeguards, policy limits, or stopping points that would prevent the extreme outcome?"),
     ],
     "causal_claim": [
-        ("q_6_1", "Is there a verified causal mechanism or controlled test showing the first event actually caused the second?"),
-        ("q_6_2", "Have alternative confounding explanations (such as a simultaneous third factor or coincidence) been ruled out?"),
+        ("q_6_1", "Is there a verified causal mechanism or controlled evidence in the context showing the first event actually caused the second?"),
+        ("q_6_2", "Have alternative confounding explanations (such as a third factor or coincidence) been ruled out by the context?"),
     ],
     "analogical_comparison": [
         ("q_7_1", "Do the two compared situations share the core structural properties that matter for the conclusion?"),
-        ("q_7_2", "Are there no critical differences in the context (such as risk level, reversibility, or domain rules) that break the analogy?"),
+        ("q_7_2", "Are there no critical differences in the context that break or invalidate the analogy?"),
     ],
     "speaker_critique": [
-        ("q_8_1", "Does the claim being critiqued rely purely on the speaker's uncorroborated personal word or lifestyle testimonial, making their credibility directly relevant?"),
-        ("q_8_2", "Does the speaker critique avoid dismissing independently verifiable data, proofs, or studies merely because of the author's personal flaws or hypocrisy?"),
+        ("q_8_1", "Does the claim being critiqued rely purely on the speaker's uncorroborated personal word, making their personal credibility directly relevant to the truth of the claim?"),
+        ("q_8_2", "Does the critique address the substance of the argument rather than dismissing it because of the speaker's personal traits, motives, or alleged hypocrisy?"),
     ],
     "naturalness_appeal": [
-        ("q_9_1", "Is the preference for the natural option supported by verified physical, clinical, or ecological evidence rather than just assuming 'natural means safe/better'?"),
-        ("q_9_2", "Does the context confirm the natural option has no hidden toxicity, allergens, or inferiority compared to the synthetic alternative?"),
+        ("q_9_1", "Does the provided Context contain explicit scientific, clinical, or empirical data proving that the 'natural' option or behavior is superior, rather than the speaker merely asserting that something is 'natural'?"),
+        ("q_9_2", "Does the provided Context explicitly rule out risks or downsides of the 'natural' option via controlled testing, rather than relying on the assumption or metaphor that what is 'natural' is automatically right or inevitable?"),
     ],
     "tradition_appeal": [
-        ("q_10_1", "Is the traditional practice kept for a verified functional, legal, or compatibility reason rather than mere habit?"),
-        ("q_10_2", "Does the context confirm the traditional method has not become unsafe, obsolete, or inferior to the modern alternative?"),
+        ("q_10_1", "Does the provided Context explicitly document a specific technical, engineering, or statutory requirement that mandates keeping the old historical practice, rather than the speaker appealing to 'time-honored tradition' or 'the old way'?"),
+        ("q_10_2", "Does the provided Context explicitly confirm through comparative evaluation that the traditional practice outperforms modern reforms?"),
     ],
     "relative_privation": [
-        ("q_11_1", "Do the two problems directly compete for the exact same limited budget, personnel, or deployment pipeline at the same time?"),
-        ("q_11_2", "Does fixing the worse problem genuinely require postponing the smaller issue, rather than dismissing an independent problem that could be solved separately?"),
+        ("q_11_1", "Does the provided Context explicitly state a fixed budget figure or shared personnel limit proving that addressing the first issue makes it mathematically impossible to address the second issue?"),
+        ("q_11_2", "Does the speaker avoid minimizing, dismissing, or redirecting attention away from the article's topic by pointing to other severe problems (such as poverty, war, dictators, or the economy)?"),
     ],
 }
 

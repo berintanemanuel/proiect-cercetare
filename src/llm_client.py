@@ -356,7 +356,7 @@ class LLMClient:
                     time.sleep(wait_sec)
                     continue
                 raise RuntimeError(f"LLM API error ({err.code}): {error_body}") from err
-            except (TimeoutError, urllib.error.URLError) as err:
+            except (TimeoutError, urllib.error.URLError, OSError) as err:
                 wait_sec = 6 * (attempt + 1)
                 print(f"  [Timeout/Network error on {self.model}: {err}] Retrying in {wait_sec}s...")
                 time.sleep(wait_sec)

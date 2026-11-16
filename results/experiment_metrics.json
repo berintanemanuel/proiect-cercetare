@@ -1134,24 +1134,24 @@
     "VBC": {
       "fpr_bare": 0.0,
       "fpr_supporting": 0.0,
-      "fpr_all_valid": 0.25,
+      "fpr_all_valid": 0.0833,
       "css": 0.0,
-      "macro_f1": 0.7849,
-      "accuracy": 0.75,
-      "overall_accuracy": 0.75,
+      "macro_f1": 0.8185,
+      "accuracy": 0.8,
+      "overall_accuracy": 0.8,
       "per_class_f1": {
-        "Appeal to Authority": 0.7059,
-        "Appeal to Majority": 0.7368,
+        "Appeal to Authority": 0.7778,
+        "Appeal to Majority": 0.8571,
         "False Dilemma": 0.8571,
         "Hasty Generalization": 0.5,
         "Slippery Slope": 0.8462,
         "Appeal to Nature": 0.9,
-        "Appeal to Tradition": 0.9,
-        "Appeal to Worse Problems": 0.8333
+        "Appeal to Tradition": 0.9524,
+        "Appeal to Worse Problems": 0.8571
       },
       "confusion_matrix": {
         "Appeal to Authority": {
-          "Appeal to Authority": 6,
+          "Appeal to Authority": 7,
           "Appeal to Majority": 1,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
@@ -1159,18 +1159,18 @@
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 3
+          "Valid": 2
         },
         "Appeal to Majority": {
           "Appeal to Authority": 0,
-          "Appeal to Majority": 7,
+          "Appeal to Majority": 9,
           "False Dilemma": 0,
           "Hasty Generalization": 1,
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 3
+          "Valid": 1
         },
         "False Dilemma": {
           "Appeal to Authority": 0,
@@ -1223,9 +1223,9 @@
           "Hasty Generalization": 0,
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
-          "Appeal to Tradition": 9,
+          "Appeal to Tradition": 10,
           "Appeal to Worse Problems": 0,
-          "Valid": 2
+          "Valid": 1
         },
         "Appeal to Worse Problems": {
           "Appeal to Authority": 0,
@@ -1235,8 +1235,8 @@
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 10,
-          "Valid": 0
+          "Appeal to Worse Problems": 9,
+          "Valid": 1
         },
         "Valid": {
           "Appeal to Authority": 0,
@@ -1246,8 +1246,8 @@
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 2,
-          "Valid": 9
+          "Appeal to Worse Problems": 0,
+          "Valid": 11
         }
       }
     }
