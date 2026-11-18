@@ -165,11 +165,13 @@ class LLMClient:
         cache_path: str = "cache/llm_cache.db",
         temperature: float = 0.0,
         transport: Callable[[list[dict[str, str]], str, float], str] | None = None,
+        strict_model: bool = False,
     ) -> None:
         load_dotenv_file()
         self.model = model or os.environ.get("LLM_MODEL", "gemini-3-flash-preview")
         self.temperature = temperature
         self.transport = transport
+        self.strict_model = strict_model
         self.endpoint, self.api_key = _resolve_endpoint_and_key(self.model, api_key, base_url)
         self._exhausted_models: set[str] = set()
 
@@ -202,7 +204,8 @@ class LLMClient:
     def _candidate_cache_keys(self, messages: list[dict[str, str]]) -> list[str]:
         candidate_keys = [self._make_cache_key(messages, self.model)]
         if (
-            self.transport is None
+            not self.strict_model
+            and self.transport is None
             and "generativelanguage.googleapis.com" in self.endpoint
             and (self.model in GEMINI_FALLBACK_MODELS or self._exhausted_models)
         ):
@@ -296,7 +299,11 @@ class LLMClient:
 
     def _switch_to_next_gemini_model(self, reason: str) -> bool:
         """Rotate to the next available Gemini free-tier model when quota/503 is hit."""
-        if "generativelanguage.googleapis.com" not in self.endpoint or not self.model.startswith("gemini"):
+        if (
+            self.strict_model
+            or "generativelanguage.googleapis.com" not in self.endpoint
+            or not self.model.startswith("gemini")
+        ):
             return False
         self._exhausted_models.add(self.model)
         for candidate in GEMINI_FALLBACK_MODELS:
@@ -347,9 +354,15 @@ class LLMClient:
             except urllib.error.HTTPError as err:
                 error_body = err.read().decode("utf-8", errors="replace")
                 # Only switch model permanently if its DAILY quota (GenerateRequestsPerDay) is exhausted
-                if err.code == 429 and "GenerateRequestsPerDay" in error_body:
+                if err.code == 429 and (
+                    "GenerateRequestsPerDay" in error_body or "RequestsPerDay" in error_body
+                ):
                     if self._switch_to_next_gemini_model("daily quota reached"):
                         continue
+                    if self.strict_model:
+                        raise RuntimeError(
+                            f"Daily quota reached for '{self.model}' in strict single-model mode: {error_body}"
+                        ) from err
                 if err.code in (429, 500, 503):
                     wait_sec = 12 if err.code == 429 else 6 * (attempt + 1)
                     print(f"  [HTTP {err.code} on {self.model}] Waiting {wait_sec}s before retry...")

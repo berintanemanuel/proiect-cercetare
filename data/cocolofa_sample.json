@@ -998,5 +998,1005 @@
     "context": "News Article: \"Activists in Lebanon are taking on the country's stray bullet problem\". Excerpt: Reem Shaker was only 18 years old when a stray bullet struck her head on the balcony of her family home in the Lebanese city of Miniyeh. The shot which killed her was fired not in retribution, but in jubilation by a group celebrating the return of their loved ones from a pilgrimage to Mecca. Reem’s story is one example in a series of senseless deaths caused by celebratory gunfire. The global Small Arms Survey estimates that as of 2017 in Lebanon, 1,927,000 civilians possess firearms. With a population of 6,105,000, almost one-third of Lebanese civilians own a firearm. According to the...",
     "true_label": "Valid",
     "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_5995",
+    "news_id": 399,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Everyone in Gambia should just listen to the leaders. Things will go smoother for everyone. Some may argue, but trust is important.",
+    "context": "News Article: \"‘A day without internet is a day in the dark’: The Gambia's growing digital divide\". Excerpt: This article is part of UPROAR , a Small Media initiative that is urging governments to address digital rights challenges at the Universal Periodic Review (UPR) . The coronavirus pandemic ushered in new levels of reliance on the internet to conduct everyday business. In the Gambia, however, frequent internet outages and overall instabilityhave made everyday life an increasingly frustrating challenge, impeding both national development and individual growth. “Brief, nationwide connectivity disruptions were recorded in November 2019 and January 2020 ,” according to a 2020 Freedom House report....",
+    "true_label": "Appeal to Authority",
+    "raw_fallacy": "appeal to authority"
+  },
+  {
+    "id": "cocolofa_8247",
+    "news_id": 550,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It's a good sign that the Middle East seems to be finally looking seriously at renewable energy. Too often they have seem to be stuck with using oil and other polluting fuels. When I look at the issue I think about my neighbor Paul, he says he knows a lot bout energy technologies. He says that the Middle East should focus entirely on solar power. He does seem to know what he is talking about, so who am I to argue? I can see some people arguing that he doesn't have a degree or is even an expert, but that seems snobbish to me. He uses a lot of words that sound like they could be about energy and he said he watched a tv show about it once. I think that is pretty impressive and his opinion should be respected.",
+    "context": "News Article: \"Can Jordan offer some lessons to oil-dependent ‘giants’ on renewable energy?\". Excerpt: The demand for electricity in the Middle East is expected to triple by 2050, accelerating the diversification of economies away from fossil fuels and toward renewable energy. A report that looked into the global energy landscape up to 2050 by the Norwegian global quality assurance and risk management company DNV GL predicts a dramatic shift in the Middle East’s economies, policies, and, consequently, technology investments to meet the increasing demands. Mohammed Alghoul , a Ph.D. student in solar energy at King Fahd University of Petroleum and Minerals in Saudi Arabia told Global Voices said...",
+    "true_label": "Appeal to Authority",
+    "raw_fallacy": "appeal to authority"
+  },
+  {
+    "id": "cocolofa_3213",
+    "news_id": 22,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I am happy, the environment is being protected against this mine. I do think we need to look at other ways to boost the local economy. It is also important the government look into regulations for further development plans that protect the environment. Ecologist, Dr. Seema said, mining not only harms the environment but also impedes sustainable economic growth. There needs to be a balance that benefits both the environment and the economy. I think we need to get more information about impacts before we move forward with any regulations. Are there other experts that have different opinions? We need to stick to the facts in order to gain the most benefit possible. How else can we benefit the economy if the mine is not a good option?",
+    "context": "News Article: \"Rejection of new Australian coal mine is a rare win for community environmental campaigners\". Excerpt: Environmentalists are celebrating a victory over a proposed coal development in the Australian state of New South Wales (NSW) after 11 years of debate and community protests. The Independent Planning Commission (IPC) for the NSW Southern Highlands blocked the plans for the proposed mine, saying the potential impacts of the project were ‘too great to be reasonably managed, and the social risks to the community are high.’ Korean-owned Hume Coal proposed applied to build the coal mine in Berrima. The company argued that the mine would ‘create 300+ jobs for locals’. The full IPC determination and...",
+    "true_label": "Appeal to Authority",
+    "raw_fallacy": "appeal to authority"
+  },
+  {
+    "id": "cocolofa_6122",
+    "news_id": 442,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Why should we listen to this musician?  What does he know about how a country should be run?  I understand having sympathy for those who are abused and neglected and am not belittling it, but let the real experts handle it. Let's leave these delicate topics to policy makers who invest their lives working on these issues.",
+    "context": "News Article: \"In Togo, singer Elias Atayi uses music as a vehicle for human rights\". Excerpt: Elias Atayi is a Togolese musician and singer who uses his music to champion the human rights of women and children. The protection and promotion of human rights are of the utmost importance for many Togolese, manifesting in the local grassroots activism, arts, and culture scenes. Even as authorities are attempting to improve the situation, challenges remain regarding human rights protections in Togo. Citizens, for their part, are doing their best to construct a state where respect for human rights is prioritized. This is the case of Elias Atayi, or Eli Amate Ataya as he is known to the...",
+    "true_label": "Appeal to Authority",
+    "raw_fallacy": "appeal to authority"
+  },
+  {
+    "id": "cocolofa_8994",
+    "news_id": 599,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "This is absurd! The person charged was in a position of power. Authority is always right!",
+    "context": "News Article: \"Slovak businessman charged with ordering murder of journalist Ján Kuciak and his fiancée\". Excerpt: Businessman Marián Kočner has been charged with ordering the killing of journalist Ján Kuciak and his fiancée Martina Kušnírová in 2018, according to a March 15 announcement by Slovakia's Special Prosecutions Office. Before he was killed, Kuciak was working with the Organized Crime and Corruption Reporting Project (OCCRP) and his outlet, Aktuality.sk, to investigate possible links between an Italian criminal group and its presence in Slovakia. He also wrote about the business dealings of Kočner. The murders caused widespread shock in the country. Demands for justice led to massive protests...",
+    "true_label": "Appeal to Authority",
+    "raw_fallacy": "appeal to authority"
+  },
+  {
+    "id": "cocolofa_6044",
+    "news_id": 416,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "These kids are not only ruining their lives, but the lives of everyone around them. They need to listen to the cops and stop rioting. It will accomplish nothing at all. Not listening to them will just mean JAIL. They don't know the ins and outs of what goes on in the government, so they shouldn't be rioting for something they have no part in.",
+    "context": "News Article: \"Hong Kong Polytechnic University on fire after violent clashes between protesters and police\". Excerpt: In recent days, a number of university campuses in Hong Kong have turned into major battlegrounds between anti-government protesters and riot police, as Hong Kong enters its eighth month of protests to defend its democratic rule. On November 17, the campus of Hong Kong Polytechnic University became the site of some of the most violent clashes witnessed so far in Hong Kong. After more than 24 hours of crossfire between riot police officers using tear gas, projectile rounds, water cannons and long-range acoustic devices and protesters’ fire-bombs, bricks and arrows, hundreds were still under...",
+    "true_label": "Appeal to Authority",
+    "raw_fallacy": "appeal to authority"
+  },
+  {
+    "id": "cocolofa_6679",
+    "news_id": 427,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Wouldn't protesting to their bosses or on air do more than what the government is doing? The protesting is important, it's just they seem to be yelling at the clouds. What can protesting in the street do to help what's going on in their job's building? Even a famous social scientist Dr. John Doe suggested that targeted dialogue to those directed involved with an issue will be more impactful than public demonstrations in certain cases. I would think the emphasis would remain on dialogue and progress and not public displays that won't really bring the change.",
+    "context": "News Article: \"Why Did Women Journalists Strike in Spain?\". Excerpt: Some 8,000 women journalists from Spain, among them the author of this post, recently signed a manifesto called “ Journalists On Strike ,” which was read during the “Feminist Strike” that took place on March 8 in a dozen cities in Spain. Neither the manifesto nor the strike were initiated by a union, political party, or media source, as is often the case. For the first time, women television show hosts, radio presenters, and newscasters decided to turn off their microphones in the studio and take their voices to the streets. #LasPeriodistasParamos https://t.co/IyIJBV00cO — Ana Pastor...",
+    "true_label": "Appeal to Authority",
+    "raw_fallacy": "appeal to authority"
+  },
+  {
+    "id": "cocolofa_7660",
+    "news_id": 554,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "There seems to be no doubt as to the wish of the people, who have tweeted and protested and made their will known. And the numbers don't lie. Isn't this a democracy? Doesn't a democracy thrive on the will of the people? It's time for Rajapaksa to bow to the will of the majority, which is the only right thing to do.",
+    "context": "News Article: \"Sri Lankan Court temporarily bars disputed Prime Minister Rajapaksa from office\". Excerpt: The power struggle between ousted Sri Lankan Prime Minister Wickremesinghe and the newly appointed Prime Minister Rajapaksa has reached a new level. On 3 December 2018, a Sri Lankan Appeals Court issued an interim injunction restraining Rajapaksa from his office as prime minister until the petition challenging his appointment is heard. Ousted Prime Minister Ranil Wickremasinghe and 121 other Parliamentarians went to court last month seeking a writ of Quo Warranto, which would require Rajapaksa to show what authority empowers him to exercise the office of prime minister. They declared that...",
+    "true_label": "Appeal to Majority",
+    "raw_fallacy": "appeal to majority"
+  },
+  {
+    "id": "cocolofa_4773",
+    "news_id": 192,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Is Turkey not a democracy? If this is the government and subsequently the policies they voted for, what's the problem? The will of the Turkish people should be respected, even if they don't have the same values on things like free speech that these Western institutions are criticizing them for.",
+    "context": "News Article: \"In Turkey, a football federation joins a list of institutions with powers to censor content online\". Excerpt: In December 2021, an article added to law No. 5894 (Law on the Establishment and Duties of the Turkish Football Federation) granted the Turkish Football Federation authority to block access to broadcasts and URLs in case the federation determines the broadcasts are illegal. From the outside it may look and sound like a legitimate decision: the football federation trying to prevent illegal broadcasts of games. But looking closely, and analysing it through the prism of the pervasive environment of censorship in Turkey at the moment, granting a football federation rights to censor content in the...",
+    "true_label": "Appeal to Majority",
+    "raw_fallacy": "appeal to majority"
+  },
+  {
+    "id": "cocolofa_6498",
+    "news_id": 367,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I think most people would agree everyone deserves equal rights to believe what they believe. We need to support equality. This is not just about being fair, it is about individual rights. I think most people agree that is an ideal we all strive for.",
+    "context": "News Article: \"EU flag torn down from Georgian Parliament in second day of far-right street violence\". Excerpt: This article was first published on OC Media. An edited version is republished here under a content partnership agreement. Several thousand people including queer rights activists and supporters as well as opposition leaders gathered outside the parliament building in Tbilisi on Tuesday, July 7, to protest the violent suppression of a planned Pride march the previous day. The Pride march planned for Monday, July 6, was called off after mobs of violent homophobic protesters took to the streets following calls by the Georgian Orthodox Church. At least 53 journalists were attacked during the...",
+    "true_label": "Appeal to Majority",
+    "raw_fallacy": "appeal to majority"
+  },
+  {
+    "id": "cocolofa_8665",
+    "news_id": 489,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Whatever the majority of the populace thinks is going on in the police force is probably correct. Mass formation of thoughts is often true. Such a large grouping can't be wrong, there must be a form of truth to it.",
+    "context": "News Article: \"A 15-year-old rape victim is the latest collateral damage of Duterte's drug war\". Excerpt: Philippines’ President Rodrigo Duterte's drug war has reached a new low this week when a police officer was arrested for raping the 15-year-old daughter of detained drug suspects in the capital Manila. Photos of officer Eduardo Valencia of the Philippine National Police (PNP) pleading with his superiors for having brought the teenager to a motel in exchange for the release of her parents have gone viral . Medical tests showed signs of rape. Critics of President Duterte say it is his misogyny, rape jokes, and repeated assurances to defend police and military in the course of his government’s... | Replying to comment: \"In authoritarian countries like this, police just always get away with their crimes. Even though it might have gotten worse under Duterte, the underlying problem has existed for as long as any of us have. It's going to be very hard for things to change given how normal some of these abuses have been. Hopefully they can put a lid on it and change things.\"",
+    "true_label": "Appeal to Majority",
+    "raw_fallacy": "appeal to majority"
+  },
+  {
+    "id": "cocolofa_6722",
+    "news_id": 442,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "When you combine the numbers of women and children, they outnumber the men and adults so their needs and rights need to be met. The fact that the country is so poor in this aspect that a singer has to bring attention to it is sad! Their needs hold much more weight, especially since they have been neglected for so long!",
+    "context": "News Article: \"In Togo, singer Elias Atayi uses music as a vehicle for human rights\". Excerpt: Elias Atayi is a Togolese musician and singer who uses his music to champion the human rights of women and children. The protection and promotion of human rights are of the utmost importance for many Togolese, manifesting in the local grassroots activism, arts, and culture scenes. Even as authorities are attempting to improve the situation, challenges remain regarding human rights protections in Togo. Citizens, for their part, are doing their best to construct a state where respect for human rights is prioritized. This is the case of Elias Atayi, or Eli Amate Ataya as he is known to the...",
+    "true_label": "Appeal to Majority",
+    "raw_fallacy": "appeal to majority"
+  },
+  {
+    "id": "cocolofa_8891",
+    "news_id": 565,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Most people believe in freedom of expression. That means that it must be always the right thing in life.",
+    "context": "News Article: \"New book presents rarely researched aspects of Myanmar's political and media transition\". Excerpt: A new book launched in June 2019 offers a comprehensive discussion about the history and the current state of the media landscape in Myanmar. The book, entitled “Myanmar Media in Transition: Legacies, Challenges and Change” was co-edited by Lisa Brooten, Jane Madlyn McElhone, and Gayathry Venkiteswaran. It includes contributions from Myanmar-based scholars, researchers, members of civil society groups, artists, and journalists who wrote about the impact of the country’s political transition on free expression. Myanmar, formerly known as Burma, was ruled by a junta for several decades until...",
+    "true_label": "Appeal to Majority",
+    "raw_fallacy": "appeal to majority"
+  },
+  {
+    "id": "cocolofa_6646",
+    "news_id": 416,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "They should just go with the majority of the ruling entity China. Why go against something that will only lead to violence. Most of the people can't be wrong can they? Follow the crowd for peace.",
+    "context": "News Article: \"Hong Kong Polytechnic University on fire after violent clashes between protesters and police\". Excerpt: In recent days, a number of university campuses in Hong Kong have turned into major battlegrounds between anti-government protesters and riot police, as Hong Kong enters its eighth month of protests to defend its democratic rule. On November 17, the campus of Hong Kong Polytechnic University became the site of some of the most violent clashes witnessed so far in Hong Kong. After more than 24 hours of crossfire between riot police officers using tear gas, projectile rounds, water cannons and long-range acoustic devices and protesters’ fire-bombs, bricks and arrows, hundreds were still under... | Replying to comment: \"Why aren't the students just obeying the police?  The protesting won't solve anything anyway so they may as well stop.  The police have authority and should be respected. MLK, Jr. said riots are the language of the unheard.  Riots aren't enough.  These things require systematic reforms and cooperation with authorities and government.\"",
+    "true_label": "Appeal to Majority",
+    "raw_fallacy": "appeal to majority"
+  },
+  {
+    "id": "cocolofa_9813",
+    "news_id": 172,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I'm happy with the court's decision. Ripping up the Earth to grab its coal is outdated and not good for nature in general. The long-term consequences cannot be positive. There are a number of ways to harness the power of nature (wind, solar) without harming it, and I look forward to the day when that is the norm. If it takes the courts to lead Australia into the future, so be it.",
+    "context": "News Article: \"Australian court's historic rejection of coal mine highlights the impact of climate change\". Excerpt: In a groundbreaking decision, a court has used the impact on climate change as one of the reasons for rejecting a new coal mine in Australia. The proposed Rocky Hill mine is near Gloucester in New South Wales’ Hunter Valley. Chief Justice Brian Preston of NSW's Land and Environment Court said that the open-cut mine “would be in the wrong place at the wrong time”. He concluded that: The construction and operation of the mine, and the transportation and combustion of the coal from the mine, will result in the emission of greenhouse gases, which will contribute to climate change. Members of the...",
+    "true_label": "Appeal to Nature",
+    "raw_fallacy": "appeal to nature"
+  },
+  {
+    "id": "cocolofa_3000",
+    "news_id": 1,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The memories of people continue to preserve the reality of events, as it is in their nature to hold on to the truth. As they say, you can't fool all the people all the time. Ever noticed how even the most forgotten parts of history find their way back to our consciousness? That's nature for you. The attempt to rewrite history is not only going against the natural order but also invites the natural repercussions, as nature works in its own mysterious ways to restore balance. Accepting what has happened may seem difficult but it is the most natural way to heal and move forward. One can't just turn the existing natural laws upside-down without expecting some form of reckoning. Let's let the nature take its course. After all, the true story of our past is the foundation on which we build our future.",
+    "context": "News Article: \"Record crowd commemorates Tiananmen Massacre at Hong Kong candlelight vigil\". Excerpt: Thousands of Hong Kongers attended a candlelight vigil to commemorate the 30th anniversary of the Tiananmen Massacre at Victoria Park on Tuesday night. This collective act of remembrance has turned into a ritual for the past 30 years, as many Hong Kongers keep honoring the spirit of China's democratization, as well as the high price some paid for it on June 4, 1989. The Chinese government continues to claim that the democracy movement led by students in Beijing in 1989 was a riot manipulated by foreign forces. The 50 day-long peaceful protest ended with a military crackdown on June 4, 1989....",
+    "true_label": "Appeal to Nature",
+    "raw_fallacy": "appeal to nature"
+  },
+  {
+    "id": "cocolofa_7648",
+    "news_id": 550,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It's only natural that countries will gravitate to processes that work for them. If they find using renewable energy sources saves them money, that's what they will use.  Running a nation, is a lot like running a company. The leaders want to show something for their efforts.",
+    "context": "News Article: \"Can Jordan offer some lessons to oil-dependent ‘giants’ on renewable energy?\". Excerpt: The demand for electricity in the Middle East is expected to triple by 2050, accelerating the diversification of economies away from fossil fuels and toward renewable energy. A report that looked into the global energy landscape up to 2050 by the Norwegian global quality assurance and risk management company DNV GL predicts a dramatic shift in the Middle East’s economies, policies, and, consequently, technology investments to meet the increasing demands. Mohammed Alghoul , a Ph.D. student in solar energy at King Fahd University of Petroleum and Minerals in Saudi Arabia told Global Voices said...",
+    "true_label": "Appeal to Nature",
+    "raw_fallacy": "appeal to nature"
+  },
+  {
+    "id": "cocolofa_9309",
+    "news_id": 4,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "This is the expected consequence of taking such drastic, abnormal measures to try to contain a pandemic. We have immune systems for a reason. Of course, sensible measures like taking vaccines when they're available and not coughing in other people's faces and all that are great, but we should also let nature run its course before we put the entire world under such authoritarian measures.",
+    "context": "News Article: \"Citizens from Chinese city on lockdown roar ‘Beijing has abandoned Wuhan!’\". Excerpt: The city of Wuhan, located in central China, has been quarantined by the Chinese government on January 23, 2020 in an effort to stop the spread of the coronavirus (2019-nCoV). The new virus is believed to have originated in December 2019 in a Wuhan market. Now, over 11 million residents are in a state of shock and panic, given the lack of appropriate medical response and credible information. According to the latest updates issued by Chinese authorities, there are now 2,034 confirmed cases of infection, and 56 deaths within mainland China, for the period of December 8, 2019, to January 26,...",
+    "true_label": "Appeal to Nature",
+    "raw_fallacy": "appeal to nature"
+  },
+  {
+    "id": "cocolofa_10158",
+    "news_id": 287,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Only focusing on the big problems may let many smaller solvable ones last longer then they should. Attack all problems if possible. A healthier system may be the result.",
+    "context": "News Article: \"Unfreedom Monitor Report: El Salvador\". Excerpt: Authoritarian regimes have long had a complicated relationship with media and communications technologies. The Unfreedom Monitor is a Global Voices Advox research initiative examining the growing phenomenon of networked or digital authoritarianism. This extract is of the executive summary of the report on El Salvador, from the series of reports to come out of the research under the Unfreedom Monitor. Read the full report here . When El Salvador ended a civil war (1980–1992) through the Peace Accords between the government and the guerrilla movement in 1992, the United Nations presented the... | Replying to comment: \"While all the centralized power this government has seems pretty problematic, the 'digital authoritarianism' bit seems pretty weak. Is this really a big and important part of the problem these people are facing? It feels like the more traditional authoritarian methods are significantly more important to deal with than how some people are treated online.\"",
+    "true_label": "Appeal to Nature",
+    "raw_fallacy": "appeal to nature"
+  },
+  {
+    "id": "cocolofa_7229",
+    "news_id": 411,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It's natural for people here to seek freedom. Turkmenistan isn't offering that. Censorship and full control is all their leaders impose.",
+    "context": "News Article: \"New study finds internet censorship in Turkmenistan reaches over 122,000 domains\". Excerpt: The dictatorship in Turkmenistan does not get a lot of media and scholarly attention, although it is more than worthy of it. In the 2023 Freedom in the World Index, the country ranked in the bottom three, behind only war-torn Syria and ahead of North Korea. The issue of internet censorship is particularly acute in Turkmenistan. In 2016, the media freedom organization Reporters without Borders listed the country as one of the enemies of the internet due to its heavy censorship and information control policies. The internet speed in Turkmenistan is the slowest in the world . The authorities...",
+    "true_label": "Appeal to Nature",
+    "raw_fallacy": "appeal to nature"
+  },
+  {
+    "id": "cocolofa_7156",
+    "news_id": 386,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It seems like these sorts of conflicts are just eternal. Tribalism just seems too innate and natural in people for it to ever truly be defeated. Peaceful coexistence really seems like the rare exception to the rule, when you look at human history as a whole.",
+    "context": "News Article: \"Flood of false bomb threats raise security concerns in Kosovo\". Excerpt: This story was originally published by Sbunker as part of the regional initiative Western Balkans Anti-Disinformation Hub. An edited version is republished by Global Voices with permission. A wave of false bomb alerts in the Balkan region has affected Kosovo . Threatening messages from anonymous addresses were sent to the university, schools , airport and bus stations. So far, no bomb has been found. But alarms spread panic, also challenging the capacities of security forces, which have stepped up control checks in recent months. Bomb threatsstarted in December 2021 and intensified from April...",
+    "true_label": "Appeal to Nature",
+    "raw_fallacy": "appeal to nature"
+  },
+  {
+    "id": "cocolofa_4847",
+    "news_id": 217,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Everyone knows men who have a history of sexual violence can not be trusted, and that goes double for if they are politicians. Its absurd to let a man like that become one. It goes against the tradition of being able to trust your public officials. Politicians have always been supposed to meet higher moral standards than the rest of us. Being a woman abuser is disqualifying.",
+    "context": "News Article: \"Trinidad & Tobago NGO identifies treatment of women as key issue in upcoming elections\". Excerpt: Trinidad and Tobago's general elections will take place on August 10, and as much as electioneering in the time of COVID-19 has had some voters calling for campaign ingenuity, the substance of the messages has, for the most part, been more of the same . The nonprofit Womantra , which educates and advocates for policy reform around the issues of women's rights and gender justice, has put out a statement about patriarchy — yet another source of dissatisfaction in the elections: All candidates seeking public office should be meticulously screened, not only for portfolio and party compatibility...",
+    "true_label": "Appeal to Tradition",
+    "raw_fallacy": "appeal to tradition"
+  },
+  {
+    "id": "cocolofa_10011",
+    "news_id": 238,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I can see why the meeting between the Azerbaijan's President Ilham Aliyev and Armenia's Prime Minister Nikol Pashinyan had it's detractors. There is certainly some controversy between the two countries and some people will always hold a grudge. I think we need to go back to more traditional views on this issue. Remember how we would let the past be the past? How we would forgive and forget? That was successful in our past and it surely can be a success in our current day as well. It does not mean that the past grievances can't be addressed, it's more about looking at those problems with a more impartial view. I'm sure if we can do this that these countries will be able to form closer ties and will prosper because of it. Traditionally I would say that would be a win-win for everyone involved.",
+    "context": "News Article: \"Iran faces backlash from its Azeri citizens over Armenia and the Karabakh question\". Excerpt: One might think that a Middle Eastern powerhouse like Iran has little connection to a conflict between two former Soviet republics in the South Caucasus that began before the communist bloc even broke up. That would be quite wrong, however. Tensions over the breakaway Nagorno-Karabakh region that fell under Armenian control following a war with Azerbaijan which began in the late 1980s are never far from the surface in relations between the two countries. A March 29 meeting between Azerbaijan's President Ilham Aliyev and Armenia's Prime Minister Nikol Pashinyan was billed as among the most...",
+    "true_label": "Appeal to Tradition",
+    "raw_fallacy": "appeal to tradition"
+  },
+  {
+    "id": "cocolofa_7782",
+    "news_id": 595,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "People for the most part have always cared about wildlife and this should be no different. People need to make sure that they are doing what they can to protect animals and the environment because even if you say you don't care at some point it is going to affect you and the people that you care about. The present condition of the Earth should be alarming to all and make us all want to do better.",
+    "context": "News Article: \"Thousands of flamingos found dead in Central Anatolia\". Excerpt: Lake Tuz (Salt Lake), a closed basin lake in the Central Anatolian province of Konya, is the second largest lake in Turkey. It houses many endemic species ranging from birds, bugs, mammals, and plant species. In 2000 the lake was declared a protected biodiverse area. It is also a temporary home for many migratory birds — including flamingos. The lake is suitable for incubation and feeding and also allows flamingos to nurse their offspring without threat from predators. The smaller lakes nearby are a source of food and nutrition for these birds. Because of this, every year in March, thousands...",
+    "true_label": "Appeal to Tradition",
+    "raw_fallacy": "appeal to tradition"
+  },
+  {
+    "id": "cocolofa_8606",
+    "news_id": 470,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I agree. Comics have a long standing rule that states a good joke makes you the target and not the audience. It's sad to see that tradition go away for cheap laughs at someone elses' expense. I am not sure when that was lost in the comedy world, but it had its costs. It could dramatically alter the comic genre and not for the better. Remember the days when comedians would push the boundaries of their imaginations for a creative and non-insulting punchline? Now that was real entertainment! What do you think?",
+    "context": "News Article: \"Latin American Facebook users weigh in on US election results with memes\". Excerpt: On November 7, Joe Biden beat out Donald Trump in the 2020 US presidential elections. News outlets quickly began covering reactions from Latin American leaders, but how has Biden's election win (and Trump's loss) been discussed on Facebook? A simple search on Crowdtangle , a Facebook monitoring tool, gave some anecdotal results. A search using the word “ elecciones ” (elections) from November 7 to November 9 brought up the most shared images on Facebook per country. While not a comprehensive polling of people's sentiments, this method offers a glimpse into local political narratives, humor,... | Replying to comment: \"People being allowed to express themselves is vital but not everyone is funny. People need to be able to post funny memes that appeal to the masses and not depressing ones that reflect our reality. There are only two types of memes, funny or depressing.\"",
+    "true_label": "Appeal to Tradition",
+    "raw_fallacy": "appeal to tradition"
+  },
+  {
+    "id": "cocolofa_4915",
+    "news_id": 239,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Imagine how much better off we'd be in terms of the climate if we just embraced the natural ways humans lived before the creation of all these artificial technologies. People used to know how to live in harmony with nature. We wouldn't have to be worrying about the ocean knocking at our doors if every tiny aspect of our lives didn't involve pollution.",
+    "context": "News Article: \"The Caribbean speaks out on the climate crisis\". Excerpt: With stories about the travesty of Hurricane Dorian in the Bahamas, the Amazon forest fires , and the hope of young climate crisis activists like Greta Thunberg and children from Small Island Developing States trying to force action from world leaders, it is no surprise that Caribbean youth are also making their voices heard, piggybacking on the global awareness raised by the September 2019 climate strikes and hosting their own events in solidarity. #ClimateStrikeTT One 15-year-old student, Tristan Morgan, was so inspired that he registered and organised #ClimateStrikeTT, which took place on...",
+    "true_label": "Appeal to Tradition",
+    "raw_fallacy": "appeal to tradition"
+  },
+  {
+    "id": "cocolofa_8293",
+    "news_id": 565,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "If they want a true democratic transition, then the media has to be free. That is one of the main traditions of a democratic country and this one doesn't seem like its ready for it. Without a free media and press, a true democracy is not possible. Every democracy has and needs one.",
+    "context": "News Article: \"New book presents rarely researched aspects of Myanmar's political and media transition\". Excerpt: A new book launched in June 2019 offers a comprehensive discussion about the history and the current state of the media landscape in Myanmar. The book, entitled “Myanmar Media in Transition: Legacies, Challenges and Change” was co-edited by Lisa Brooten, Jane Madlyn McElhone, and Gayathry Venkiteswaran. It includes contributions from Myanmar-based scholars, researchers, members of civil society groups, artists, and journalists who wrote about the impact of the country’s political transition on free expression. Myanmar, formerly known as Burma, was ruled by a junta for several decades until...",
+    "true_label": "Appeal to Tradition",
+    "raw_fallacy": "appeal to tradition"
+  },
+  {
+    "id": "cocolofa_9780",
+    "news_id": 161,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I agree completely. They had a system that, while flawed, more or less worked since before most of us were even alive. Did they not expect that radical change would lead to a radical response? This is what happens when like you say, they do away with tradition.",
+    "context": "News Article: \"Internet blocked as protests intensify in northeast India against the Citizenship Amendment Act\". Excerpt: Soon after India finalized the Citizenship (Amendment) Act on 12 December 2019 to allow refugees of six different faiths from the neighbouring Afghanistan, Bangladesh and Pakistan, violent protests opposing the Act erupted in the northeastern states of Assam, Tripura and Meghalaya. While the Act has been criticized for anti-Muslim bias, most in Assam have been protesting it for fear that it will open the door to Hindu refugees from Bangladesh, and affect the local language and culture. Read This: India's citizenship bill fuels anti-Muslim prejudice fears At least three protestors have died in... | Replying to comment: \"Why change the law now when its been unchanged since 1955? Talk about doing away with tradition. No wonder people are upset. This will change large parts of India! India is not used to bringing in so many different kinds of refugees!\"",
+    "true_label": "Appeal to Tradition",
+    "raw_fallacy": "appeal to tradition"
+  },
+  {
+    "id": "cocolofa_7377",
+    "news_id": 460,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Combating fake news is important, but this happened during covid, when thousands of people were dying. The government was focused on punishing journalists and not spending all their time and effort on helping control the virus and save the people? Absurd. Shows they don't care for their own people!",
+    "context": "News Article: \"Malaysia orders ‘stern action’ against media misreporting government statements on COVID-19\". Excerpt: Check out Global Voices’ special coverage of the global impact of COVID-19 . Malaysian civil society groups have expressed concerns over the statement of the National Security Council directing the police and the Ministry of Communications and Multimedia (KKMM) to take ‘stern action’ against online news websites that allegedly misreport government statements on COVID-19. Several media groups also criticized the release of an infographics detailing various types of ‘fake news’ which includes the posting of criticism against authorities. On April 11, 2020, Senior Minister Datuk Seri Ismail...",
+    "true_label": "Appeal to Worse Problems",
+    "raw_fallacy": "appeal to worse problems"
+  },
+  {
+    "id": "cocolofa_4372",
+    "news_id": 58,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Don't these people have much bigger things to worry about than what hiccups could go along with experiments? This is Africa we're talking about. I mean, of course everything should be done to ensure any trials and experiments are conducted ethically, but with all the massive amounts of poverty and conflict these places are dealing with, this doesn't seem like it should be a huge priority.",
+    "context": "News Article: \"COVID-19 revives grim history of medical experimentation in Africa\". Excerpt: Check out Global Voices’ special coverage of the global impact of COVID-19 . The mad rush by scientists and researchers to test potential treatments for COVID-19 in scientific trials has revived a heated debate over the use of humans in critical drug trials in Africa. On April 1, two French researchers, Dr. Jean-Paul Mira and Camille Locht, suggested on a live television broadcast that trials of a potential vaccine should first take place in Africa, according to Al Jazeera. Dr. Mira, head of the intensive care unit at Cochin Hospital in Paris, compared the current situation to “certain AIDS...",
+    "true_label": "Appeal to Worse Problems",
+    "raw_fallacy": "appeal to worse problems"
+  },
+  {
+    "id": "cocolofa_11063",
+    "news_id": 589,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "No matter the scale of global problems we're facing, this brutality is beyond comprehend. Violence is never an answer, it is saddening to know this is still happening. Their sexual orientation does not invalidate their human rights. We need to do better as a society. Also, it's high time platforms take strict action against individuals who incite such hatred and violence.",
+    "context": "News Article: \"In Azerbaijan silence looms as yet another member of LGBTQ+ community is fatally targeted\". Excerpt: Azerbaijan's LGBTQ+ community has never had it easy. But these past few weeks, have been especially traumatic. Just a little over a month after attacks against some members of the LGBTQ+ community, the story of a young trans woman killed in August stirred further discussion about deeply rooted homophobia in the country, the lack of protective measures to support LGBTQ+ people, and the government's failure to take action amid violence and hate. The most recent victim was a 27-year-old trans woman, Nuray. Her burned body was found on August 22, in one of the capital's residential districts....",
+    "true_label": "Appeal to Worse Problems",
+    "raw_fallacy": "appeal to worse problems"
+  },
+  {
+    "id": "cocolofa_4912",
+    "news_id": 238,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Why are there so many Iranians focused on a war in a foreign country? I think they have enough problems at home to worry about. I guess they need a distraction from all the human rights abuses and protests that are going on.",
+    "context": "News Article: \"Iran faces backlash from its Azeri citizens over Armenia and the Karabakh question\". Excerpt: One might think that a Middle Eastern powerhouse like Iran has little connection to a conflict between two former Soviet republics in the South Caucasus that began before the communist bloc even broke up. That would be quite wrong, however. Tensions over the breakaway Nagorno-Karabakh region that fell under Armenian control following a war with Azerbaijan which began in the late 1980s are never far from the surface in relations between the two countries. A March 29 meeting between Azerbaijan's President Ilham Aliyev and Armenia's Prime Minister Nikol Pashinyan was billed as among the most...",
+    "true_label": "Appeal to Worse Problems",
+    "raw_fallacy": "appeal to worse problems"
+  },
+  {
+    "id": "cocolofa_6461",
+    "news_id": 355,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "There are issues like wars going on. While this is important, it comes second. Victims should get justice, but equitably.",
+    "context": "News Article: \"Bengali, Pakistani, and Amazon indigenous women perform ‘The rapist is you’ song\". Excerpt: The viral feminist flashmob “ The rapist is you” (“ Un violador en tu camino”) born in Chile is still making waves all over the world as it inspires women to protest sexual harassment and abuse. One of them was in Bangladesh, where over a thousand people protested against the rape of a Dhaka University student. Many protesters performed the Bangla version of the song “The rapist is you”. “এই দায় আমার নয়, নয় চলন-বলন-জামার এই দায় শুধু তোর, তুই ধর্ষক” The fault wasn’t mine, nor where I was, nor what I said, or nor how I dressed The fault is yours, the rapist is you The protest happened on...",
+    "true_label": "Appeal to Worse Problems",
+    "raw_fallacy": "appeal to worse problems"
+  },
+  {
+    "id": "cocolofa_7046",
+    "news_id": 350,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Refugees have more to worry about than privacy. They are running from home, and don't want their host to know who they are? There are worst issues for the host, if they can't identify refugees.",
+    "context": "News Article: \"Refugees in Ethiopia's camps raise privacy and exclusion concerns over UNHCR’s new digital registration\". Excerpt: Editor's note: This piece was written by Tesfa-Alem Tekle, a journalist and researcher based in Ethiopia. It is part of our series on digital ID systems, produced in partnership with The Engine Room. Visit the Digital ID microsite to read a full research report on this global trend, and case studies on five countries that have deployed digital ID systems, including Ethiopia . In 2010, the United Nations High Commissioner for Refugees (UNHCR) officially announced a new digital identification (ID) program for refugees. The new program, known as the Biometric Identity Management System (BIMS) ,...",
+    "true_label": "Appeal to Worse Problems",
+    "raw_fallacy": "appeal to worse problems"
+  },
+  {
+    "id": "cocolofa_6446",
+    "news_id": 350,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Refugees do not have inherent rights, other than human rights. They are not entitled to anything. So there are more crucial things to worry about in the society.",
+    "context": "News Article: \"Refugees in Ethiopia's camps raise privacy and exclusion concerns over UNHCR’s new digital registration\". Excerpt: Editor's note: This piece was written by Tesfa-Alem Tekle, a journalist and researcher based in Ethiopia. It is part of our series on digital ID systems, produced in partnership with The Engine Room. Visit the Digital ID microsite to read a full research report on this global trend, and case studies on five countries that have deployed digital ID systems, including Ethiopia . In 2010, the United Nations High Commissioner for Refugees (UNHCR) officially announced a new digital identification (ID) program for refugees. The new program, known as the Biometric Identity Management System (BIMS) ,...",
+    "true_label": "Appeal to Worse Problems",
+    "raw_fallacy": "appeal to worse problems"
+  },
+  {
+    "id": "cocolofa_7465",
+    "news_id": 489,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "This situation is absolutely appalling. Swift action must be taken against those in power before the entire society breaks down. Changes in law enforcement and public punishments should be enacted quickly. It makes one wonder if it would be preferable to completely abolish the law enforcement agencies and let everyone fend for themselves.",
+    "context": "News Article: \"A 15-year-old rape victim is the latest collateral damage of Duterte's drug war\". Excerpt: Philippines’ President Rodrigo Duterte's drug war has reached a new low this week when a police officer was arrested for raping the 15-year-old daughter of detained drug suspects in the capital Manila. Photos of officer Eduardo Valencia of the Philippine National Police (PNP) pleading with his superiors for having brought the teenager to a motel in exchange for the release of her parents have gone viral . Medical tests showed signs of rape. Critics of President Duterte say it is his misogyny, rape jokes, and repeated assurances to defend police and military in the course of his government’s...",
+    "true_label": "False Dilemma",
+    "raw_fallacy": "false dilemma"
+  },
+  {
+    "id": "cocolofa_7392",
+    "news_id": 465,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I wouldn’t be surprised if the suicide rates of women in those countries was at an all time high too. It’s either live in fear or risk even more violence if you try to get help. We need to be addressing the issue of violence against women that was already there long before COVID.#Itstimeforachange",
+    "context": "News Article: \"Across the Middle East, many women face a double threat: Abuser inside, virus outside\". Excerpt: In many countries around the world, domestic violence is on the rise due to the COVID-19 pandemic that has forced people to shelter at home. Under various lockdown and confinement orders, violence against women has surged — including in progressive democracies. France reported a 30 percent increase in domestic violence since the country went into lockdown, a figure similar to Italy, Spain, the United Kingdom, Brazil and China . The issue remains largely unaddressed in the Middle East and North Africa (MENA) region, where the violence in largely patriarchal societies is particularly acute....",
+    "true_label": "False Dilemma",
+    "raw_fallacy": "false dilemma"
+  },
+  {
+    "id": "cocolofa_8064",
+    "news_id": 489,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "This is tough since you need a tough police force in order to run a country and keep law and order. Duterte can either continue to encourage coarseness and brio among his policemen, seeing these cases of rape as an unfortunate byproduct of tough policing by tough cops, or he can cleanse the police departments and rebuild the force de novo. I don't think a third way, that of reform, will be very effective.",
+    "context": "News Article: \"A 15-year-old rape victim is the latest collateral damage of Duterte's drug war\". Excerpt: Philippines’ President Rodrigo Duterte's drug war has reached a new low this week when a police officer was arrested for raping the 15-year-old daughter of detained drug suspects in the capital Manila. Photos of officer Eduardo Valencia of the Philippine National Police (PNP) pleading with his superiors for having brought the teenager to a motel in exchange for the release of her parents have gone viral . Medical tests showed signs of rape. Critics of President Duterte say it is his misogyny, rape jokes, and repeated assurances to defend police and military in the course of his government’s...",
+    "true_label": "False Dilemma",
+    "raw_fallacy": "false dilemma"
+  },
+  {
+    "id": "cocolofa_3207",
+    "news_id": 20,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I don't think there is a clear answer to this dilemma. Armenia seems very intertwined with Russia both for economic reasons and security reasons. Is there a way for Armenia to continue to benefit from Russia but not support them in ways that cause harm to other nations? If they have to break ties with Russia they are likely to suffer economically but continuing to support Russia may result in negative consequences with other nations. Maybe there is a way for Armenia to maintain relationships with Russia and other nations that they will benefit from.",
+    "context": "News Article: \"Silent and uneasy: Armenia’s response to the Russian invasion of Ukraine\". Excerpt: This article was first published on OC Media. An edited version is republished here under a content partnership agreement. Since Russia’s invasion of Ukraine, the world seems to be more united against Russian imperialism than ever. However, in Armenia, people have found themselves lost between deep-seated feelings of trauma and apathy, with analysts suggesting that the country suffers from a case of Stockholm syndrome , in which a captive develops positive feelings for the captor. The recent war over Nagorno-Karabakh between Armenia and Azerbaijan, Russia’s presence and influence in Armenia,...",
+    "true_label": "False Dilemma",
+    "raw_fallacy": "false dilemma"
+  },
+  {
+    "id": "cocolofa_3958",
+    "news_id": 20,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Well, either Armenia publicly condemns Russia, which would mean making a powerful enemy, or they remain neutral and have other countries hate them for it. Its a lose-lose. Why do what everyone else is doing and take a side? They get nothing out of it.",
+    "context": "News Article: \"Silent and uneasy: Armenia’s response to the Russian invasion of Ukraine\". Excerpt: This article was first published on OC Media. An edited version is republished here under a content partnership agreement. Since Russia’s invasion of Ukraine, the world seems to be more united against Russian imperialism than ever. However, in Armenia, people have found themselves lost between deep-seated feelings of trauma and apathy, with analysts suggesting that the country suffers from a case of Stockholm syndrome , in which a captive develops positive feelings for the captor. The recent war over Nagorno-Karabakh between Armenia and Azerbaijan, Russia’s presence and influence in Armenia,...",
+    "true_label": "False Dilemma",
+    "raw_fallacy": "false dilemma"
+  },
+  {
+    "id": "cocolofa_8006",
+    "news_id": 470,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "People being allowed to express themselves is vital but not everyone is funny. People need to be able to post funny memes that appeal to the masses and not depressing ones that reflect our reality. There are only two types of memes, funny or depressing.",
+    "context": "News Article: \"Latin American Facebook users weigh in on US election results with memes\". Excerpt: On November 7, Joe Biden beat out Donald Trump in the 2020 US presidential elections. News outlets quickly began covering reactions from Latin American leaders, but how has Biden's election win (and Trump's loss) been discussed on Facebook? A simple search on Crowdtangle , a Facebook monitoring tool, gave some anecdotal results. A search using the word “ elecciones ” (elections) from November 7 to November 9 brought up the most shared images on Facebook per country. While not a comprehensive polling of people's sentiments, this method offers a glimpse into local political narratives, humor,...",
+    "true_label": "False Dilemma",
+    "raw_fallacy": "false dilemma"
+  },
+  {
+    "id": "cocolofa_5861",
+    "news_id": 355,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "If the rapes happen, then there should be protests. If they are false, there should be allegations. These days, everything is rape. Physical contact.. rape. Eye contact... rape.",
+    "context": "News Article: \"Bengali, Pakistani, and Amazon indigenous women perform ‘The rapist is you’ song\". Excerpt: The viral feminist flashmob “ The rapist is you” (“ Un violador en tu camino”) born in Chile is still making waves all over the world as it inspires women to protest sexual harassment and abuse. One of them was in Bangladesh, where over a thousand people protested against the rape of a Dhaka University student. Many protesters performed the Bangla version of the song “The rapist is you”. “এই দায় আমার নয়, নয় চলন-বলন-জামার এই দায় শুধু তোর, তুই ধর্ষক” The fault wasn’t mine, nor where I was, nor what I said, or nor how I dressed The fault is yours, the rapist is you The protest happened on...",
+    "true_label": "False Dilemma",
+    "raw_fallacy": "false dilemma"
+  },
+  {
+    "id": "cocolofa_4688",
+    "news_id": 164,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Travel to Africa should be avoided if possible. Africa is such a vast place yet Ebola is concentrated there. We should not bring any instances of this disease back to our country.",
+    "context": "News Article: \"As Ebola outbreak ends, coronavirus begins in DR Congo\". Excerpt: This post is written by guest contributor Esdras Tsongo, a Congolese reporter and journalist based in eastern Democratic Republic of Congo. Check out Global Voices’ special coverage of the global impact of COVID-19 . Democratic Republic of Congo has officially declared no more Ebola patients. On Tuesday, March 3, 2020, the World Health Organization (WHO) announced that the last patient was discharged in good health from a treatment center in Beni, North Kivu, eastern DR Congo. This is not yet the end of the epidemic, but it is a victory: Beni used to be the epicenter of Ebola in DR Congo. But...",
+    "true_label": "Hasty Generalization",
+    "raw_fallacy": "hasty generalization"
+  },
+  {
+    "id": "cocolofa_3707",
+    "news_id": 87,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The news on this topic is interesting to me. The internet 'news' makes it seem like Hong Kong wants nothing to do with China and that these protests truly represent the popular will. I have a few friends from Hong Kong, and they all love China. Strange. Seems like the news isn't interested in reporting what the people actually think.",
+    "context": "News Article: \"In Hong Kong, local entrepreneurs champion the pro-democracy cause\". Excerpt: A new restaurant and shopping guide in Hong Kong is helping citizens identify shops that support the anti-government protests. The guide is called the “Hong Kong’s Rice Pig Guide” (米豬蓮). Twitter user @Dystopia992 explained what it's about: #米豬連 (the cute ?) pronoun as “MiChuLin” which sound similar to #Michelin , is a GOOD FOODIE Guide for ??er to identify #YellowShops (pro-protest) & to avoid Blue Shops (pro- #China )! Just see how CUTE ? is #YellowEconomicCircle #黃色經濟圈 #黃店 pic.twitter.com/KTpWHguPMX — @Dystopia – #China_is_terrorist (@Dystopia992) December 5, 2019 Initiatives such as those...",
+    "true_label": "Hasty Generalization",
+    "raw_fallacy": "hasty generalization"
+  },
+  {
+    "id": "cocolofa_10992",
+    "news_id": 565,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Freedom of expression is very important even in developing countries. Credible journalism is also essential in paving the way for reform. This book clearly shows the struggle for free speech in Myanmar, from the military junta era to now. It raises a worrying trend too, the use of old laws to suppress free speech even under civilian leadership. it's useful to bear in mind, even countries under democratic transition like Myanmar, struggle with freedom of expression.",
+    "context": "News Article: \"New book presents rarely researched aspects of Myanmar's political and media transition\". Excerpt: A new book launched in June 2019 offers a comprehensive discussion about the history and the current state of the media landscape in Myanmar. The book, entitled “Myanmar Media in Transition: Legacies, Challenges and Change” was co-edited by Lisa Brooten, Jane Madlyn McElhone, and Gayathry Venkiteswaran. It includes contributions from Myanmar-based scholars, researchers, members of civil society groups, artists, and journalists who wrote about the impact of the country’s political transition on free expression. Myanmar, formerly known as Burma, was ruled by a junta for several decades until...",
+    "true_label": "Hasty Generalization",
+    "raw_fallacy": "hasty generalization"
+  },
+  {
+    "id": "cocolofa_8533",
+    "news_id": 645,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Totally agree. If it happened here, it is undoubtedly happening everywhere across the world. Maybe Facebook should do away with any form of moderation or censorship. We should of course consider the consequences, but in this case the pros may outweigh the cons.",
+    "context": "News Article: \"Filipino activists decry Facebook’s ‘automated censorship’\". Excerpt: Several group pages and personal accounts of Filipino activists were restricted by Facebook for allegedly violating community standards after they posted photos, videos, and statements honoring the legacy of the late founder of the Communist Party of the Philippines Jose Maria Sison . Apparently, Sison is included in the list of Facebook’s “dangerous individuals and organizations.” Sison, 83, died on December 16, 2022. He was jailed for nine years during the Martial Law regime until the ouster of the dictatorship in 1986. He was forced to go into exile in The Netherlands in 1987 after his... | Replying to comment: \"So true! It is hard to believe that this censorship that Facebook is doing is still happening.  What happens next? Do they censor all political names so when anyone talks about any figure they get censored? This is going to lead to mass hysteria when no one can get any truthful information. Chaos will reign! Everyone being blindsided by what is and isn't true, the government wants to confuse people to have total control over them. Let's not let this happen! We have to fight this!\"",
+    "true_label": "Hasty Generalization",
+    "raw_fallacy": "hasty generalization"
+  },
+  {
+    "id": "cocolofa_4700",
+    "news_id": 168,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "If a presidential candidate is going to be voted on just by people of their ethnicity that means that Macedonia is a divided country susceptible to bias. Perhaps this is something they should work on so that they can choose candidates based on merit rather than their genes. Racial bias is something that should be addressed all over the world so that we can move forward as a human race.",
+    "context": "News Article: \"Ethnic Albanian votes will decide presidential elections in North Macedonia\". Excerpt: This story originally appeared on Meta.mk News Agency , a project of Metamorphosis Foundation. An edited version is published below as part of a content-sharing agreement . North Macedonia will vote on the second round of the presidential elections on Sunday, May 5, amid uncertainties about the turnout and the outcome. This is the first presidential elections since the right-wing VMRO-DPNME lost parliament majority in 2016 after ruling for 12 years, and will be the first major test of political support to the government coalition led by the pro-West Social Democratic Party (SDSM). The Social...",
+    "true_label": "Hasty Generalization",
+    "raw_fallacy": "hasty generalization"
+  },
+  {
+    "id": "cocolofa_4095",
+    "news_id": 66,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The grassroots efforts will eliminate celebratory gunfire one hundred percent. This type of effort is the most effective way to address the gun violence issue. Listening to concerned citizens is the only way to end this type of gun violence. This may not always be the case, but this issue is a perfect usage of grassroots organization.",
+    "context": "News Article: \"Activists in Lebanon are taking on the country's stray bullet problem\". Excerpt: Reem Shaker was only 18 years old when a stray bullet struck her head on the balcony of her family home in the Lebanese city of Miniyeh. The shot which killed her was fired not in retribution, but in jubilation by a group celebrating the return of their loved ones from a pilgrimage to Mecca. Reem’s story is one example in a series of senseless deaths caused by celebratory gunfire. The global Small Arms Survey estimates that as of 2017 in Lebanon, 1,927,000 civilians possess firearms. With a population of 6,105,000, almost one-third of Lebanese civilians own a firearm. According to the...",
+    "true_label": "Hasty Generalization",
+    "raw_fallacy": "hasty generalization"
+  },
+  {
+    "id": "cocolofa_8246",
+    "news_id": 550,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The UAE intends to get half its energy from renewable sources by 2050? That bodes quite well for the region, as all the other Arab countries will follow suit, of course. Since these countries tend to all be run in roughly the same way, the success of the UAE will parlay easily into similar or even better outcomes among its neighboring countries, which is going to be great for the planet!",
+    "context": "News Article: \"Can Jordan offer some lessons to oil-dependent ‘giants’ on renewable energy?\". Excerpt: The demand for electricity in the Middle East is expected to triple by 2050, accelerating the diversification of economies away from fossil fuels and toward renewable energy. A report that looked into the global energy landscape up to 2050 by the Norwegian global quality assurance and risk management company DNV GL predicts a dramatic shift in the Middle East’s economies, policies, and, consequently, technology investments to meet the increasing demands. Mohammed Alghoul , a Ph.D. student in solar energy at King Fahd University of Petroleum and Minerals in Saudi Arabia told Global Voices said...",
+    "true_label": "Hasty Generalization",
+    "raw_fallacy": "hasty generalization"
+  },
+  {
+    "id": "cocolofa_10578",
+    "news_id": 427,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I think it's fine for women to demand equal pay and power, but then what? I can see the movement taking more and more, until women hold the power in society and men will go on strike for equal representation. The article suggests this movement is spreading to other areas other than media, so I think it's important to make sure equality is achieved slowly and sensibly and doesn't slide into a negative situation.",
+    "context": "News Article: \"Why Did Women Journalists Strike in Spain?\". Excerpt: Some 8,000 women journalists from Spain, among them the author of this post, recently signed a manifesto called “ Journalists On Strike ,” which was read during the “Feminist Strike” that took place on March 8 in a dozen cities in Spain. Neither the manifesto nor the strike were initiated by a union, political party, or media source, as is often the case. For the first time, women television show hosts, radio presenters, and newscasters decided to turn off their microphones in the studio and take their voices to the streets. #LasPeriodistasParamos https://t.co/IyIJBV00cO — Ana Pastor...",
+    "true_label": "Slippery Slope",
+    "raw_fallacy": "slippery slope"
+  },
+  {
+    "id": "cocolofa_4849",
+    "news_id": 217,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I think that taking allegations of sexual misconduct into account, instead of actual convictions, is not a wise move. This could lead to innocent politicians being slandered and removed from office, over false allegations, which happen a lot. This could be used by political opponents to remove candidates from an election a false allegation of sexual misconduct.",
+    "context": "News Article: \"Trinidad & Tobago NGO identifies treatment of women as key issue in upcoming elections\". Excerpt: Trinidad and Tobago's general elections will take place on August 10, and as much as electioneering in the time of COVID-19 has had some voters calling for campaign ingenuity, the substance of the messages has, for the most part, been more of the same . The nonprofit Womantra , which educates and advocates for policy reform around the issues of women's rights and gender justice, has put out a statement about patriarchy — yet another source of dissatisfaction in the elections: All candidates seeking public office should be meticulously screened, not only for portfolio and party compatibility...",
+    "true_label": "Slippery Slope",
+    "raw_fallacy": "slippery slope"
+  },
+  {
+    "id": "cocolofa_8963",
+    "news_id": 589,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "If people in the LGBTQ community are not protected then what is next? You cannot discriminate against one group of people and not expect that discrimination to one day be directed at you for something. People need to get out of others private lives and focus on real world problems like war and climate change.",
+    "context": "News Article: \"In Azerbaijan silence looms as yet another member of LGBTQ+ community is fatally targeted\". Excerpt: Azerbaijan's LGBTQ+ community has never had it easy. But these past few weeks, have been especially traumatic. Just a little over a month after attacks against some members of the LGBTQ+ community, the story of a young trans woman killed in August stirred further discussion about deeply rooted homophobia in the country, the lack of protective measures to support LGBTQ+ people, and the government's failure to take action amid violence and hate. The most recent victim was a 27-year-old trans woman, Nuray. Her burned body was found on August 22, in one of the capital's residential districts....",
+    "true_label": "Slippery Slope",
+    "raw_fallacy": "slippery slope"
+  },
+  {
+    "id": "cocolofa_8577",
+    "news_id": 460,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The road to totalitarianism begins here, with a clamping down on independent journalism. Once freedom of the press is stamped out, then comes freedom of speech, then the freedom to assemble, to protest, etc., etc. Soon a state of crushing authority will dominate the people in all areas of their lives. That is why the road must be destroyed here, at the start, so the people have a shot at remaining free.",
+    "context": "News Article: \"Malaysia orders ‘stern action’ against media misreporting government statements on COVID-19\". Excerpt: Check out Global Voices’ special coverage of the global impact of COVID-19 . Malaysian civil society groups have expressed concerns over the statement of the National Security Council directing the police and the Ministry of Communications and Multimedia (KKMM) to take ‘stern action’ against online news websites that allegedly misreport government statements on COVID-19. Several media groups also criticized the release of an infographics detailing various types of ‘fake news’ which includes the posting of criticism against authorities. On April 11, 2020, Senior Minister Datuk Seri Ismail...",
+    "true_label": "Slippery Slope",
+    "raw_fallacy": "slippery slope"
+  },
+  {
+    "id": "cocolofa_11095",
+    "news_id": 599,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "If the people and journalists aren't even being allowed to get the specific details of the case or attend the press conferences and whatnot, eventually this'll just lead to the government never telling the people anything. They will first just give the bare minimum info and then nothing at all. Once a government feels comfortable leaving their people in the dark, they will never give up that power.",
+    "context": "News Article: \"Slovak businessman charged with ordering murder of journalist Ján Kuciak and his fiancée\". Excerpt: Businessman Marián Kočner has been charged with ordering the killing of journalist Ján Kuciak and his fiancée Martina Kušnírová in 2018, according to a March 15 announcement by Slovakia's Special Prosecutions Office. Before he was killed, Kuciak was working with the Organized Crime and Corruption Reporting Project (OCCRP) and his outlet, Aktuality.sk, to investigate possible links between an Italian criminal group and its presence in Slovakia. He also wrote about the business dealings of Kočner. The murders caused widespread shock in the country. Demands for justice led to massive protests...",
+    "true_label": "Slippery Slope",
+    "raw_fallacy": "slippery slope"
+  },
+  {
+    "id": "cocolofa_6631",
+    "news_id": 411,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Turkmenistan is censoring the internet and slowing the internet down for its citizens. Who is going to be the next country to do this? And how long before it reaches us here in the United states? If it happens in the united states, it could happen in any country in the west.",
+    "context": "News Article: \"New study finds internet censorship in Turkmenistan reaches over 122,000 domains\". Excerpt: The dictatorship in Turkmenistan does not get a lot of media and scholarly attention, although it is more than worthy of it. In the 2023 Freedom in the World Index, the country ranked in the bottom three, behind only war-torn Syria and ahead of North Korea. The issue of internet censorship is particularly acute in Turkmenistan. In 2016, the media freedom organization Reporters without Borders listed the country as one of the enemies of the internet due to its heavy censorship and information control policies. The internet speed in Turkmenistan is the slowest in the world . The authorities...",
+    "true_label": "Slippery Slope",
+    "raw_fallacy": "slippery slope"
+  },
+  {
+    "id": "cocolofa_6310",
+    "news_id": 304,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "If they continue to take the rights of transgender people, what's to stop them from taking the rights of others? Women? Religious minorities? Racial minorities? Where will it stop? We need to consider long term impacts. Stop further targeting. We need to stand up for all rights.",
+    "context": "News Article: \"First transgender pride march hopes to shatter stereotypes in Pakistan\". Excerpt: To assert their rights and demand implementation of the law, a Transgender Pride March took place in Lahore , Pakistan, on 29 December 2018. For the first time in the country's history, Transgender people dared to step out of their seclusion and demanded that the Government implement The Transgender Persons (Protection of Rights) Act, of May 24, 2018. With changing times even Pakistan is becoming more accepting towards transgender! First ever transgender march in Pakistan took place in Lahore on Dec 29, 2019. I hope this will continue and maulvis won’t give out fatwas against it....",
+    "true_label": "Slippery Slope",
+    "raw_fallacy": "slippery slope"
+  },
+  {
+    "id": "cocolofa_9356",
+    "news_id": 20,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It''s not easy being in such a delicate and precarious situation like that of Armenia. I hope they are able to find better support from Western democratic nations, but I doubt it. Unfortunately, Armenia is just the kind of country which gets lost among all the competing anxieties which perplex busy nations like the United States and those of western Europe. Let's hope for better days for Armenia, and perhaps even independence from Russia's influence.",
+    "context": "News Article: \"Silent and uneasy: Armenia’s response to the Russian invasion of Ukraine\". Excerpt: This article was first published on OC Media. An edited version is republished here under a content partnership agreement. Since Russia’s invasion of Ukraine, the world seems to be more united against Russian imperialism than ever. However, in Armenia, people have found themselves lost between deep-seated feelings of trauma and apathy, with analysts suggesting that the country suffers from a case of Stockholm syndrome , in which a captive develops positive feelings for the captor. The recent war over Nagorno-Karabakh between Armenia and Azerbaijan, Russia’s presence and influence in Armenia,...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_11081",
+    "news_id": 595,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "We shouldn't adopt such a defeatist attitude. On the contrary, terrible stories like this should spur us into action. Keeping our natural resources and wildlife safe is everyone's responsibility. This needs to be a wake up call against poor environmental stewardship.",
+    "context": "News Article: \"Thousands of flamingos found dead in Central Anatolia\". Excerpt: Lake Tuz (Salt Lake), a closed basin lake in the Central Anatolian province of Konya, is the second largest lake in Turkey. It houses many endemic species ranging from birds, bugs, mammals, and plant species. In 2000 the lake was declared a protected biodiverse area. It is also a temporary home for many migratory birds — including flamingos. The lake is suitable for incubation and feeding and also allows flamingos to nurse their offspring without threat from predators. The smaller lakes nearby are a source of food and nutrition for these birds. Because of this, every year in March, thousands... | Replying to comment: \"That's so sad to think about all of those beautiful birds suffering. Its even sadder to think about how stories like this will become more common as climate change gets worse. At this point, though, I think its unavoidable. We can't undo decades and decades of harm to the environment. But the politicians can make it harder for companies to abuse the environment now.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_7277",
+    "news_id": 427,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Oh come on now, there are plenty of complaints by these women journalists that could easily be verified. Plus these are the very same complaints that is heard in other areas of the world, there is zero chance that these women protesters are standing up under false pretenses. Many of their concerns have been well-documented, showing the imbalance and unfair conditions they face. Maybe now it's high time that relevant authorities start listening to these brave women and take a stand to change the situation, instead of turning a deaf ear to their valid concerns.",
+    "context": "News Article: \"Why Did Women Journalists Strike in Spain?\". Excerpt: Some 8,000 women journalists from Spain, among them the author of this post, recently signed a manifesto called “ Journalists On Strike ,” which was read during the “Feminist Strike” that took place on March 8 in a dozen cities in Spain. Neither the manifesto nor the strike were initiated by a union, political party, or media source, as is often the case. For the first time, women television show hosts, radio presenters, and newscasters decided to turn off their microphones in the studio and take their voices to the streets. #LasPeriodistasParamos https://t.co/IyIJBV00cO — Ana Pastor... | Replying to comment: \"I am much more likely to trust the people in charge of these organizations than the women striking. How do we know what they say is true? If there were real issues, the people in charge would handle it. Feminist protests like this usually blow things out of proportion, let's be honest!\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_5954",
+    "news_id": 386,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "These are a serious matter and must be treated as such. The government must be transparent.",
+    "context": "News Article: \"Flood of false bomb threats raise security concerns in Kosovo\". Excerpt: This story was originally published by Sbunker as part of the regional initiative Western Balkans Anti-Disinformation Hub. An edited version is republished by Global Voices with permission. A wave of false bomb alerts in the Balkan region has affected Kosovo . Threatening messages from anonymous addresses were sent to the university, schools , airport and bus stations. So far, no bomb has been found. But alarms spread panic, also challenging the capacities of security forces, which have stepped up control checks in recent months. Bomb threatsstarted in December 2021 and intensified from April...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10266",
+    "news_id": 323,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It's so encouraging to see this kind of combination: intelligence and technical prowess plus pride (the right kind of pride - i.e., in one's history and tradition). This is exactly the kind of person who gets projects like this done, and he's an articulate spokesperson for its widespread support. Keep up the great work!",
+    "context": "News Article: \"Should there be Shona-language versions of Google and social media sites? This Zimbawean technologist says yes\". Excerpt: Editor's note: From April 13-19 2021, Blessing Sibanda will be hosting the @DigiAfricanLang rotating Twitter account, which explores how technology can be used to revitalize African languages. Read more about the campaign here . Shona, an official language of Zimbabwe, is one of the most spoken Bantu languages , with an estimated 10.8 million speakers . But while there are a number of established historical and literary resources in Shona, the visibility of the language online is far from encouraging. Blessing Sibanda, a software engineer, is at the forefront of the effort to have the Shona...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_5215",
+    "news_id": 239,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I think we have bigger problems to deal with that our youth being active in causes they believe in. It seems like you want them to be quiet and just go along with whatever you tell them to. Yet, you probably are also in the crowd that screams that the youth are lazy. Perhaps the youth will go on to do a far better job that you could when it comes to addressing issues like climate change, poverty and education.",
+    "context": "News Article: \"The Caribbean speaks out on the climate crisis\". Excerpt: With stories about the travesty of Hurricane Dorian in the Bahamas, the Amazon forest fires , and the hope of young climate crisis activists like Greta Thunberg and children from Small Island Developing States trying to force action from world leaders, it is no surprise that Caribbean youth are also making their voices heard, piggybacking on the global awareness raised by the September 2019 climate strikes and hosting their own events in solidarity. #ClimateStrikeTT One 15-year-old student, Tristan Morgan, was so inspired that he registered and organised #ClimateStrikeTT, which took place on... | Replying to comment: \"Once you get youth active in doing something they may never cease. They may do things they should take no part in. Society's road to anarchy is possibly paved.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_4684",
+    "news_id": 162,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The military government in Myanmar seems to be pretty severe. The people might be concerned about potential coup. First Vice President Myint Swe, do you agree with this? Is this democratic?",
+    "context": "News Article: \"Myanmar introduces ‘draconian’ cyber security bill amid growing anti-coup protests\". Excerpt: Civil society groups in Myanmar are opposing the draft “Cyber Security Bill” which was introduced amid growing opposition to the military government. The bill was sent by the Ministry of Transport and Communications to local telecommunication companies for their review on February 9. The document was leaked online, and this allowed the public to study its content. The bill has 76 sections which contain provisions that empower authorities to order websites to be blocked, content removed, and individuals to be charged for spreading misinformation. The bill was presented days after the military...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_6623",
+    "news_id": 409,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Its clear that something must be done, but no one is doing it. We have a government, we must hold them accountable and force them to act. Everyone must speak up, it could be someone you love next.",
+    "context": "News Article: \"Jamaicans agonise, politicians seek solutions after another young woman is killed\". Excerpt: Jamaicans are anxious. Over 600 people have died from COVID-19 since the country announced its index case of the virus on March 10, 2020 and the rate of infections remains high amid lingering economic uncertainty . Then, on the eve of the first of three planned weekend lockdowns, news that a young woman had been found murdered two days after she went missing hit a raw nerve. Police have charged a 50-year-old man, a neighbour, with the murder of 20-year-old accounting clerk Khanice Jackson, who left her suburban Kingston home on the morning of March 24, but never arrived at her workplace. The...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10235",
+    "news_id": 313,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "That does not seem like a very reasonable reaction here. These students are the ones who will have to live with the world politics creates longer than any of the older adults who engage in politics. If anything, they should be the ones most passionate and interested in the processes that will be shaping their future. We should ensure they have a safe environment to express themselves without any fear of retribution.",
+    "context": "News Article: \"Bangladesh regulator blocks engineering university webpage containing reports of student abuse\". Excerpt: Bangladesh has been rocked with student protests across the country after an undergraduate of the country's prestigious Bangladesh University of Engineering and Technology (BUET) was beaten to death on 7th of October early morning by fellow students belonging to the student wing of the ruling Awami League . The murder of 21-year-old Abrar Fahad in a dormitory of BUET has put a spotlight on student abuse in public universities across the country and the attempt to bury the allegations. After the murder, students of BUET and in other institutions were coming out with their tells of abuses by... | Replying to comment: \"These kids are in college and they think its a good use of their time to harass other kids due to politics? They have tests and whatnot to worry about. Politics is for when you're older. Idiots! There are many more problems to worry about at your age. Your future, climate change, etc.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_3214",
+    "news_id": 22,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I do wonder if it would have been approved had celebs not been upset about it. If Kidman's and other rich peoples' houses hadn't been affected and it was all just normal peoples' homes, I bet it would have been approved. Does anyone else think celebs have too much sway in politics?",
+    "context": "News Article: \"Rejection of new Australian coal mine is a rare win for community environmental campaigners\". Excerpt: Environmentalists are celebrating a victory over a proposed coal development in the Australian state of New South Wales (NSW) after 11 years of debate and community protests. The Independent Planning Commission (IPC) for the NSW Southern Highlands blocked the plans for the proposed mine, saying the potential impacts of the project were ‘too great to be reasonably managed, and the social risks to the community are high.’ Korean-owned Hume Coal proposed applied to build the coal mine in Berrima. The company argued that the mine would ‘create 300+ jobs for locals’. The full IPC determination and... | Replying to comment: \"Caving in because a few has-been celebs oppose a coal mine is a dumb move. I guess we're going to roll over for every celebrity cause and sink the whole economy. Decisions like this one need to be made by experts who understand the real impact. Losing all those local jobs won't hurt Nicole Kidman and Leo Sayer, but it sure hurts a lot of Joe and Jane Does and small business owners who are struggling to recover from the impact of covid.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10910",
+    "news_id": 538,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I don't blame the citizens for not trusting their government. What a mess. I hope for a peaceful resolution soon.",
+    "context": "News Article: \"Capturing the mood on both sides of the Ukraine-Russia conflict in Donbas\". Excerpt: On Valentine’s Day 2021, three Ukrainian soldiers died from an exploding landmine in the Donbas , the region of eastern Ukraine split by fighting between the Ukrainian government and Russian-backed rebel forces. The youngest was born in 1994, three years after Ukraine became an independent state following the collapse of the Soviet Union. The year he was born, Ukraine agreed to get rid of all the nuclear weapons on its soil. When he was three, Russia and Ukraine signed a Friendship Treaty , affirming respect for each other’s territorial integrity. Indeed, he grew up in a state whose territory...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10346",
+    "news_id": 350,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "What a spot to occupy, truly that between a rock and a hard place. On the one hand you need safety and the things required to survive, and on the other you would like to protect your private (biometric) data. This system doesn't seem tolerant of people who lean a little more toward the latter. That seems like a real problem, one which demands attention.",
+    "context": "News Article: \"Refugees in Ethiopia's camps raise privacy and exclusion concerns over UNHCR’s new digital registration\". Excerpt: Editor's note: This piece was written by Tesfa-Alem Tekle, a journalist and researcher based in Ethiopia. It is part of our series on digital ID systems, produced in partnership with The Engine Room. Visit the Digital ID microsite to read a full research report on this global trend, and case studies on five countries that have deployed digital ID systems, including Ethiopia . In 2010, the United Nations High Commissioner for Refugees (UNHCR) officially announced a new digital identification (ID) program for refugees. The new program, known as the Biometric Identity Management System (BIMS) ,...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10530",
+    "news_id": 411,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "While Turkmenistan censoring the internet is wrong and should be stopped immediately for many valid reasons, I don't think it's likely at all that it will start happening in the west. Western governments tend to have checks and balances that prevent them from crossing certain lines that detract from citizens freedoms. Turkmenistan is one of the least free countries in the world. We should always be vigilant and protect our freedoms as  much as possible, but we don't need to cause an undue amount of concern either. That level of balance is important so we do not go too far or become too complacent. It is true as well that we must not be complacent in allowing Turkmenistan to censor its people, we must stand up to this bully and encourage them to open up their internet. It will be a good first step. #Freedom4Turkmenistan",
+    "context": "News Article: \"New study finds internet censorship in Turkmenistan reaches over 122,000 domains\". Excerpt: The dictatorship in Turkmenistan does not get a lot of media and scholarly attention, although it is more than worthy of it. In the 2023 Freedom in the World Index, the country ranked in the bottom three, behind only war-torn Syria and ahead of North Korea. The issue of internet censorship is particularly acute in Turkmenistan. In 2016, the media freedom organization Reporters without Borders listed the country as one of the enemies of the internet due to its heavy censorship and information control policies. The internet speed in Turkmenistan is the slowest in the world . The authorities... | Replying to comment: \"Turkmenistan is censoring the internet and slowing the internet down for its citizens. Who is going to be the next country to do this? And how long before it reaches us here in the United states? If it happens in the united states, it could happen in any country in the west.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_4578",
+    "news_id": 127,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Thank you for pointing out the obvious issue with this article! Why on earth are we focusing on the internet shutdown and not all the humans rights issues that they're attempting to cover up! We will never make any progress on this humanitarian crisis if we pour all of our resources into a symptom, not the cause. I think the world community needs to reassess their priorities!",
+    "context": "News Article: \"How internet shutdowns in Myanmar have been endangering lives and affecting humanitarian work since the coup\". Excerpt: Almost two years after the coup led by military commander-in-chief Senior General Min Aung Hlainge, internet shutdowns, restrictions, and interruptions continue in most parts of Myanmar. The junta has imposed targeted internet shutdowns in regions where the military faces strong resistance from armed resistance groups accompanied by severe offline crackdowns. A press statement released by the United Nations on June 7, 2022, reported that 31 townships in seven states and regions of Myanmar have been experiencing a complete internet shutdown since August 2021, and a further 23 townships have... | Replying to comment: \"Why is the focus on the internet shutdowns, and not that actual human rights abuses from the insecurity caused by the coup. There has been enough evidence based on the statistics to show that Myanmar needs more international intervention. It is important to get news out from the people in Myanmar, but we need to focus on the problem itself which is the insecurity caused by the coup.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_3829",
+    "news_id": 127,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The political situation in Myanmar is becoming strange. How have the politicians become so removed from the needs of the people. And why do they allow such human rights violations to continue? Please give the people back the internet. Please let them tell us what's happening so we can offer assistance.",
+    "context": "News Article: \"How internet shutdowns in Myanmar have been endangering lives and affecting humanitarian work since the coup\". Excerpt: Almost two years after the coup led by military commander-in-chief Senior General Min Aung Hlainge, internet shutdowns, restrictions, and interruptions continue in most parts of Myanmar. The junta has imposed targeted internet shutdowns in regions where the military faces strong resistance from armed resistance groups accompanied by severe offline crackdowns. A press statement released by the United Nations on June 7, 2022, reported that 31 townships in seven states and regions of Myanmar have been experiencing a complete internet shutdown since August 2021, and a further 23 townships have...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_6678",
+    "news_id": 427,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I understand why you think having a rule that you believe is unfair would be troubling and lead to more unfairness. I think we  need to look at the bigger picture here. A rule that you see is unfair might seem very fair to another person. Fairness is a very subjective issue and all of us will see it differently based on our experiences. Can you think of a rule or law that has been widely praised that you might see as unfair to yourself or others? Sometimes we need to look outside our own biases and see that other people can see things quite differently. Once we can see those differences we can then come together and find solutions that can meet all of our needs. I suggest that all of us meet with others with different opinions and listen to their views. That will be a great step for us all.",
+    "context": "News Article: \"Why Did Women Journalists Strike in Spain?\". Excerpt: Some 8,000 women journalists from Spain, among them the author of this post, recently signed a manifesto called “ Journalists On Strike ,” which was read during the “Feminist Strike” that took place on March 8 in a dozen cities in Spain. Neither the manifesto nor the strike were initiated by a union, political party, or media source, as is often the case. For the first time, women television show hosts, radio presenters, and newscasters decided to turn off their microphones in the studio and take their voices to the streets. #LasPeriodistasParamos https://t.co/IyIJBV00cO — Ana Pastor... | Replying to comment: \"Once you let them dictate rules against fairness, they will continue the problem. It only gets worse. Rights will be trampled and compromised.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_4371",
+    "news_id": 58,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Some companies, and countries think it is acceptable to experiment on africans. They've done it in africa, as well as in United states. It's time for that to end. I'm not sure what would make it seem Africa was the place to start. Other countries must have been experiencing similar numbers. So why was it not more evenly spread out? Articles like this are helpful. We need to be aware of what is happening and that is the beginning of fixing it.",
+    "context": "News Article: \"COVID-19 revives grim history of medical experimentation in Africa\". Excerpt: Check out Global Voices’ special coverage of the global impact of COVID-19 . The mad rush by scientists and researchers to test potential treatments for COVID-19 in scientific trials has revived a heated debate over the use of humans in critical drug trials in Africa. On April 1, two French researchers, Dr. Jean-Paul Mira and Camille Locht, suggested on a live television broadcast that trials of a potential vaccine should first take place in Africa, according to Al Jazeera. Dr. Mira, head of the intensive care unit at Cochin Hospital in Paris, compared the current situation to “certain AIDS...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10842",
+    "news_id": 515,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Most countries don't have infighting quite so extreme.   This speaks to a lack of a tradition of peaceful transition of power.   Such traditions are necessary for a healthy political system.   It's unfair to these people,  they want stability and peaceful progress,   The negative precedent this sets is terrible.  Sometimes should be done about it before the problem spreads to other regions.",
+    "context": "News Article: \"In Afghanistan, Governors Don't Just Step Down Because the President Asks Them To\". Excerpt: As Mohammad Daud begins his fiftieth day in office as governor of Afghanistan's Balkh region, he may wonder whether he will ever receive the keys from his predecessor. President Ashraf Ghani officially announced Daud as a replacement for long-serving Ata Mohammad Noor on December 18, 2017, but the popular Noor did not feel like a job change. For the past month, Balkh’s had 2 governors (3 if u count the Taliban shadow gov). One’s ruled the province like a king, now refusing to leave, trying to emerge larger in defying Ghani. His successor – ready in a 3-piece suit & dyed beard – cant get it in... | Replying to comment: \"This kind of infighting is innate among politicians. In fact, this trait is so native, such a natural building block of the politician's makeup, that it is the very reason he entered politics in the first place. Their love of power is like the spots on a leopard: an unchangeable mark of a particular kind of animal. We can hope for better from our leaders, but I wouldn't count on it. Besides, the fact that this trait and its results (infighting) are so naturally intrinsic to politics means they are probably the best way to approach political issues. Darwin would be proud.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10339",
+    "news_id": 347,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Fico sounds like Trump: the anti-immigration stance, the scapegoating of George Soros, the engagement with wild, unprovable conspiracy theories. NGOs play an important role in international affairs and often do a lot of work that governments themselves can't do. Perhaps more transparency in the government would do more good and build more public trust than targeting NGOs.",
+    "context": "News Article: \"The threat of a restrictive NGO law looms over Slovakia\". Excerpt: Slovak officials are increasingly using rhetoric that paints civil society as a danger to the country, which some fear is laying the groundwork for more government oversight — and more ways for those in power to punish non-governmental organizations (NGOs) that they dislike. Former Prime Minister Róbert Fico warned that the government would soon propose and put before parliament a new NGO law: „Na jeseň ide do parlamentu zákon a pri každej jednej organizácii, ktorá je v treťom sektore, bude napísané, kto ju financuje, či je to zo zahraničia alebo nie je.“ In the autumn, the law goes to...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_5149",
+    "news_id": 217,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It seems that you didn't Tobago's election process needs to be overhauled. I'm not sure how far they have to go, but it seems like there are some things that need to be addressed. Every political candidate should have their background apparently inspected. This could lead to a more trustworthy political process for those countries.",
+    "context": "News Article: \"Trinidad & Tobago NGO identifies treatment of women as key issue in upcoming elections\". Excerpt: Trinidad and Tobago's general elections will take place on August 10, and as much as electioneering in the time of COVID-19 has had some voters calling for campaign ingenuity, the substance of the messages has, for the most part, been more of the same . The nonprofit Womantra , which educates and advocates for policy reform around the issues of women's rights and gender justice, has put out a statement about patriarchy — yet another source of dissatisfaction in the elections: All candidates seeking public office should be meticulously screened, not only for portfolio and party compatibility...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_9873",
+    "news_id": 192,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I see your point here, why should we care over the censorship of soccer matches being broadcast? That is very fair, but I think there is a bigger point being made here that you are potentially overlooking. This may seem like a small thing, but it is just a symptom of the growing authoritarian government style in Turkey. Even if it is not the most major problem in all of Turkey, there is plenty of resources to deal with all problems. The more problems we can address then the better the society in general will function. That is the hope at least, that if we can bring back even small freedoms to Turkey that larger ones will follow.",
+    "context": "News Article: \"In Turkey, a football federation joins a list of institutions with powers to censor content online\". Excerpt: In December 2021, an article added to law No. 5894 (Law on the Establishment and Duties of the Turkish Football Federation) granted the Turkish Football Federation authority to block access to broadcasts and URLs in case the federation determines the broadcasts are illegal. From the outside it may look and sound like a legitimate decision: the football federation trying to prevent illegal broadcasts of games. But looking closely, and analysing it through the prism of the pervasive environment of censorship in Turkey at the moment, granting a football federation rights to censor content in the... | Replying to comment: \"Are we really getting bothered about soccer matches? Especially, the right to illegally stream soccer matches? I mean, if they start abusing the law to go after what its intended purpose, that would be bad of course, but don't people, particularly Turkish people, have far bigger problems to worry about? This sort of 'censorship' is hardly meaningful in the face of what Turkey's current dictator is doing.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_9781",
+    "news_id": 161,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It doesn't seem legitimate to shut down the internet in hopes to stop \"misinformation,\" does it? The best way to battle bad speech is to allow more good speech. More speech is better. Always. And the internet is a vital channel for voices to be heard.",
+    "context": "News Article: \"Internet blocked as protests intensify in northeast India against the Citizenship Amendment Act\". Excerpt: Soon after India finalized the Citizenship (Amendment) Act on 12 December 2019 to allow refugees of six different faiths from the neighbouring Afghanistan, Bangladesh and Pakistan, violent protests opposing the Act erupted in the northeastern states of Assam, Tripura and Meghalaya. While the Act has been criticized for anti-Muslim bias, most in Assam have been protesting it for fear that it will open the door to Hindu refugees from Bangladesh, and affect the local language and culture. Read This: India's citizenship bill fuels anti-Muslim prejudice fears At least three protestors have died in...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10209",
+    "news_id": 304,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Irrespective of one's personal view, the idea of harming, and certainly of killing, anyone over such an issue is abhorrent. The statistics in this article are extremely alarming. This must stop. Let's hope it does, and as soon as possible.",
+    "context": "News Article: \"First transgender pride march hopes to shatter stereotypes in Pakistan\". Excerpt: To assert their rights and demand implementation of the law, a Transgender Pride March took place in Lahore , Pakistan, on 29 December 2018. For the first time in the country's history, Transgender people dared to step out of their seclusion and demanded that the Government implement The Transgender Persons (Protection of Rights) Act, of May 24, 2018. With changing times even Pakistan is becoming more accepting towards transgender! First ever transgender march in Pakistan took place in Lahore on Dec 29, 2019. I hope this will continue and maulvis won’t give out fatwas against it....",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_4821",
+    "news_id": 208,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I like the fact that the artist is able to take both the good and bad from her homelands history and turn it into beautiful and meaningful artwork. I think this is a way to engage the audience in a way that will be profound. I think that we can all agree that art can help us confront and heal from our past.",
+    "context": "News Article: \"Artist Jasmine Thomas-Girvan taps into the ‘eternal connections’ of Black Caribbean ancestry\". Excerpt: The lush, tree-filled backyard of Jamacian-born, Trinidad-based artist Jasmine Thomas-Girvan ‘s urban childhood home was to have an impact on her creative process that she could never have imagined when she first received her Bachelor of Fine Arts degree from the groundbreaking Parsons School of Design in the 1980s. Over the course of her long career, her work has expanded from amazingly intricate jewellery pieces to large-scale installations that merge sculpture with elements of multimedia. In her latest solo exhibition at Kunstinstituut Melly in The Netherlands, “ Bathed in Sacred Fire ,”...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10210",
+    "news_id": 304,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It doesn't really matter much what the majority thinks, although it would be nice if the majority was accepting of trans individuals. The Transgendered Persons act has passed, and is a matter of law regardless of what the majority think. It just hasn't been implemented. Anyway, I wonder if the majority would be accepting of all the violence (sometimes lethal) that trans individuals have to face. That said, the media blackout of the event is unfortunate because that might have helped ease social prejudices, which is where real concrete change will occur. Exposure to different viewpoints is how tolerance is fostered. Meanwhile, implementing the law will save lives, whether the majority realizes it or not.",
+    "context": "News Article: \"First transgender pride march hopes to shatter stereotypes in Pakistan\". Excerpt: To assert their rights and demand implementation of the law, a Transgender Pride March took place in Lahore , Pakistan, on 29 December 2018. For the first time in the country's history, Transgender people dared to step out of their seclusion and demanded that the Government implement The Transgender Persons (Protection of Rights) Act, of May 24, 2018. With changing times even Pakistan is becoming more accepting towards transgender! First ever transgender march in Pakistan took place in Lahore on Dec 29, 2019. I hope this will continue and maulvis won’t give out fatwas against it.... | Replying to comment: \"More than any of this, I'd be interested to see what public opinion in the country is on this issue. Is this a government unilaterally denying them the laws that the majority support, or do the people not actually support it? I don't believe it's fair to have minorities pushing through legislation and changes that go against the will of the people so this is what I want to read more about.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_6559",
+    "news_id": 387,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "You believe Hong Kong is finished just because of a single law and a few examples of it maybe negatively affecting the country?  I think you are jumping to a conclusion without weighing all the facts and understanding that laws can be complex and their outcomes evolve over time. I understand the initial concern but we have to look at these issues with a discerning eye to see what the actual effects and their causes are.  At this point we are not sure if the concerns to this law will not be addressed and improve the law in the long run. I really hope that in the end all these concerns will actually lead to a more free Hong Kong and the people who live there.",
+    "context": "News Article: \"The quiet weeding out of Hong Kong’s media landscape\". Excerpt: On June 30, 2020, the day the National Security Law in Hong Kong was enacted, the local government gave reassurances that “it will not affect legitimate rights and freedoms of individuals.” Two years later, however, drastic changes in the local media landscape tell a different story. Not long ago, dissenting voices were part of Hong Kong’s public discourse. The framework of “One Country, Two Systems,” which promised the city a high degree of autonomy after 1997, was also seen as a recognition that Hong Kong’s previous success as a global financial centre was rooted in the far-reaching... | Replying to comment: \"Hong Kong is finished. The people need to rise up and take control. If China keeps weighing their influence on HK, things will get worse.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_9735",
+    "news_id": 146,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I am struggling to understand why you think that we can only address one issue at a time, this is not the way the world has to work. This brave woman has come forward to share her story and this should not be overlooked or silenced. It does not matter how long ago this event happened, people from that time surely still wear the scars from those days. I think by hearing from these people that we can bring closure to their suffering and hopefully give other people the strength to come forward with their own stories. That is how we can fight current repression around the world, this is how we will show that justice is possible when we recognize problems from any time. I thought she did a great job in this article and I am interested to learn more about her and her story. Anyone else feel this way?",
+    "context": "News Article: \"This digital novel narrates the violence against ethnic Chinese during the 1998 riots in Indonesia\". Excerpt: A digital illustrated novel tells the stories of Indonesian Chinese who were attacked during the riots that toppled the Indonesian government in 1998. In May 1998, violent riots erupted across Indonesia demanding the resignation of then President Suharto who had ruled the country for over three decades. The riots led to a change in government but thousands of innocent civilians — in particular, Indonesians of Chinese ancestry– were injured, raped, and killed. Many Orang Tionghoa (how Indonesians with full or partial Chinese ancestry are called) fled the country because of the escalating... | Replying to comment: \"I don't think people should focus so much on the past. Both Indonesia and China have a lot of significant problems they're facing right now. There's ever-increasing repression in both countries, inequality, suffering of all kinds. Is now the time to try to heal the wounds of some 25 year old event that affected some small minority? That is the sort of thing you try to do after you've solved the bigger problems.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_7860",
+    "news_id": 621,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "This is an amazing and exciting find. I am sorry to hear about the people dying from snake bites though. Hopefully they will develop effective ways of preventing or dealing with that, and soon.",
+    "context": "News Article: \"The first recorded two-headed banded kukri snake discovered in Nepal\". Excerpt: Dicephaly , the condition that causes a snake to be born with two heads, is already very rare. But when villagers from the Nawalpur District of central Nepal captured a two-headed banded kukri snake ( Oligodon arnenis ) in October 2018, they hadn't the faintest idea that it was the first of its species . A recent report published in the April 2020 edition of IRCF Journal confirms the discovery. Police officers rescued the snake from the villagers while they were taking it to the capital city Kathmandu and transferred it to park rangers from the Chitwan National Park who released it into...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_9302",
+    "news_id": 2,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "What a powerful gesture, and what a great idea. I wish resistance to violence with flowers and good wishes were always this effective! Let's hope this campaign is replicated in other tense regions around the world.",
+    "context": "News Article: \"In Myanmar, Buddhists offer white roses to Muslims during Ramadan\". Excerpt: On 16 May 2019, a group of Buddhists in Myanmar's former capital, Yangon, launched a ‘White Rose’ campaign which offers roses to Muslims who are fasting during Ramadan. The campaign was organized to show solidarity with Muslims after Buddhist mobs gathered around a number of temporary Muslim prayer houses and demanded that prayer services be suspended. On the evenings of 14 and 15 May, mobs of more than 100 Buddhist extremists attempted to prevent Muslim prayers, demanding that three prayer houses set up for Ramadan observance in the South Dagon area of Yangon be closed down. In response,...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_9922",
+    "news_id": 208,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "That is what is neat about art. People can look at it and take different things away from it. I am sure that there may be some people that are not aware of the history of the Caribbean islands and works like this one may be an avenue for people to understand the roads that led to the way the region operates now, and not some fairy tale. It is good to remind the people of the past so bad things that happened do not happen again for instance. Not every culture has a fairy tale history to fall back on and remember fondly. This artist is taking an opportunity to educate and remind people of not only what has happened, but what CAN happen even though hard times came before, without buffering it or softening it to comfort the masses. It is inspirational in my opinion to see this artist take such care to do such a thing that way. It gives people a glimpse into how the Caribbean that we know today got to where it is.",
+    "context": "News Article: \"Artist Jasmine Thomas-Girvan taps into the ‘eternal connections’ of Black Caribbean ancestry\". Excerpt: The lush, tree-filled backyard of Jamacian-born, Trinidad-based artist Jasmine Thomas-Girvan ‘s urban childhood home was to have an impact on her creative process that she could never have imagined when she first received her Bachelor of Fine Arts degree from the groundbreaking Parsons School of Design in the 1980s. Over the course of her long career, her work has expanded from amazingly intricate jewellery pieces to large-scale installations that merge sculpture with elements of multimedia. In her latest solo exhibition at Kunstinstituut Melly in The Netherlands, “ Bathed in Sacred Fire ,”... | Replying to comment: \"Staring at slavery feels like people think black people should sit and stare at the past. And relive traumatic events? People used to understand what had happened, and live with it without constantly bringing it up. The people now are not as strong as previous generations. At least not emotionally.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_3828",
+    "news_id": 127,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Its awful that not much has been done by the United Nations Office to address this crisis. I hope that internet service and the humanitarian response needs to be improved upon in order for the crisis to be under control and this crisis gets resolved.",
+    "context": "News Article: \"How internet shutdowns in Myanmar have been endangering lives and affecting humanitarian work since the coup\". Excerpt: Almost two years after the coup led by military commander-in-chief Senior General Min Aung Hlainge, internet shutdowns, restrictions, and interruptions continue in most parts of Myanmar. The junta has imposed targeted internet shutdowns in regions where the military faces strong resistance from armed resistance groups accompanied by severe offline crackdowns. A press statement released by the United Nations on June 7, 2022, reported that 31 townships in seven states and regions of Myanmar have been experiencing a complete internet shutdown since August 2021, and a further 23 townships have...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10363",
+    "news_id": 355,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I think anything that empowers women like this is a good thing. It's also peaceful and no one is harmed in the process",
+    "context": "News Article: \"Bengali, Pakistani, and Amazon indigenous women perform ‘The rapist is you’ song\". Excerpt: The viral feminist flashmob “ The rapist is you” (“ Un violador en tu camino”) born in Chile is still making waves all over the world as it inspires women to protest sexual harassment and abuse. One of them was in Bangladesh, where over a thousand people protested against the rape of a Dhaka University student. Many protesters performed the Bangla version of the song “The rapist is you”. “এই দায় আমার নয়, নয় চলন-বলন-জামার এই দায় শুধু তোর, তুই ধর্ষক” The fault wasn’t mine, nor where I was, nor what I said, or nor how I dressed The fault is yours, the rapist is you The protest happened on...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_3043",
+    "news_id": 15,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The Madagascar child protection network of 750 members has been unable to make enough progress in ending child violence in the country, and will continue on like this without action. We need to do away with the program if it continues this lack of progress, because it will continue to fail at it's objectives.",
+    "context": "News Article: \"First comprehensive study on child abuse in Madagascar points to alarming level of violence\". Excerpt: [This article was written by an invited author, Andry R. Razafimbahoaka. The article was then edited by Global Voices for context and clarification] Since the Convention on the Rights of the Child was signed in 1991, Madagascar has been multiplying its efforts to implement policies that protect child rights and created more than 750 child protection networks within the country since 2004. Despite this progress, abuse, violence, sexual exploitation and forced labor are still a tragic reality which silently occurs behind closed doors. According to a report released by the Malagasy State and...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_8847",
+    "news_id": 550,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Well, they know that fossil fuels are finite. It makes perfect sense for them to use the wealth they've gotten and are going to get in the coming decades from oil and invest them in things that will last beyond the death of fossil fuels. Just very smart, prudent moves on their part.",
+    "context": "News Article: \"Can Jordan offer some lessons to oil-dependent ‘giants’ on renewable energy?\". Excerpt: The demand for electricity in the Middle East is expected to triple by 2050, accelerating the diversification of economies away from fossil fuels and toward renewable energy. A report that looked into the global energy landscape up to 2050 by the Norwegian global quality assurance and risk management company DNV GL predicts a dramatic shift in the Middle East’s economies, policies, and, consequently, technology investments to meet the increasing demands. Mohammed Alghoul , a Ph.D. student in solar energy at King Fahd University of Petroleum and Minerals in Saudi Arabia told Global Voices said... | Replying to comment: \"This is pretty surprising. I would have thought those countries would be the last ones to invest in reneweables! When your whole economies are based off fossil fuels, you would think they would be opposed to solar or electric!\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_9299",
+    "news_id": 1,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It seems that their narrative is working for outside observers as well. You stated 202 lost but it is very likely the number was in the thousands. It is important that the push for truth and transparency continues.",
+    "context": "News Article: \"Record crowd commemorates Tiananmen Massacre at Hong Kong candlelight vigil\". Excerpt: Thousands of Hong Kongers attended a candlelight vigil to commemorate the 30th anniversary of the Tiananmen Massacre at Victoria Park on Tuesday night. This collective act of remembrance has turned into a ritual for the past 30 years, as many Hong Kongers keep honoring the spirit of China's democratization, as well as the high price some paid for it on June 4, 1989. The Chinese government continues to claim that the democracy movement led by students in Beijing in 1989 was a riot manipulated by foreign forces. The 50 day-long peaceful protest ended with a military crackdown on June 4, 1989.... | Replying to comment: \"The problem with communists government is they always try to tell their own story.  The only way they have been able to stay in power is through fear.  Fear that any challenge to their power will result in more death.  The souls of 202 people being lost is sad, but so is the loss of freedom.   This tradition should remain alive, as should the tradition of questioning the truth of what happened on June 4.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_5211",
+    "news_id": 238,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I agree, they shouldn't worry about what's going on in a different country when stuff is happening in their own country. It's time to get rid of distractions and worry about yourself. They need to end up getting rid of their distractions and focus on what's going on there, it's time to get rid of distraction and move on.",
+    "context": "News Article: \"Iran faces backlash from its Azeri citizens over Armenia and the Karabakh question\". Excerpt: One might think that a Middle Eastern powerhouse like Iran has little connection to a conflict between two former Soviet republics in the South Caucasus that began before the communist bloc even broke up. That would be quite wrong, however. Tensions over the breakaway Nagorno-Karabakh region that fell under Armenian control following a war with Azerbaijan which began in the late 1980s are never far from the surface in relations between the two countries. A March 29 meeting between Azerbaijan's President Ilham Aliyev and Armenia's Prime Minister Nikol Pashinyan was billed as among the most... | Replying to comment: \"Why are there so many Iranians focused on a war in a foreign country? I think they have enough problems at home to worry about. I guess they need a distraction from all the human rights abuses and protests that are going on.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_6554",
+    "news_id": 386,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I have to disagree. The threats are a huge problem, they are keeping people from going about their daily lives in all aspects. It is affecting the security of their government, the mental health of all citizens. This is a very serious problem in need of a solution.",
+    "context": "News Article: \"Flood of false bomb threats raise security concerns in Kosovo\". Excerpt: This story was originally published by Sbunker as part of the regional initiative Western Balkans Anti-Disinformation Hub. An edited version is republished by Global Voices with permission. A wave of false bomb alerts in the Balkan region has affected Kosovo . Threatening messages from anonymous addresses were sent to the university, schools , airport and bus stations. So far, no bomb has been found. But alarms spread panic, also challenging the capacities of security forces, which have stepped up control checks in recent months. Bomb threatsstarted in December 2021 and intensified from April... | Replying to comment: \"The false bomb threats are a problem but not as bad as other problems that exist. Global warming will end us all. If left unchecked we might not have a world to live in.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10495",
+    "news_id": 399,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "The cost of internet access there is startlingly high. It's almost unbelievable. It's not just an economic issue but is really about fundamental human rights like having access to information and the ability to participate in the digital world (not to mention being able to make a living). That needs to change and we need pressure from international groups to bring about that change. Let's go.",
+    "context": "News Article: \"‘A day without internet is a day in the dark’: The Gambia's growing digital divide\". Excerpt: This article is part of UPROAR , a Small Media initiative that is urging governments to address digital rights challenges at the Universal Periodic Review (UPR) . The coronavirus pandemic ushered in new levels of reliance on the internet to conduct everyday business. In the Gambia, however, frequent internet outages and overall instabilityhave made everyday life an increasingly frustrating challenge, impeding both national development and individual growth. “Brief, nationwide connectivity disruptions were recorded in November 2019 and January 2020 ,” according to a 2020 Freedom House report....",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_10157",
+    "news_id": 287,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "That's fine to say at the early stages. Wait until the authoritarianism only grows and grows, as this article describes. When has a rise in authoritarianism ever ultimately led to good results? It's a disturbing trend and people need to be aware of the threats posed by these sorts of modern populists.",
+    "context": "News Article: \"Unfreedom Monitor Report: El Salvador\". Excerpt: Authoritarian regimes have long had a complicated relationship with media and communications technologies. The Unfreedom Monitor is a Global Voices Advox research initiative examining the growing phenomenon of networked or digital authoritarianism. This extract is of the executive summary of the report on El Salvador, from the series of reports to come out of the research under the Unfreedom Monitor. Read the full report here . When El Salvador ended a civil war (1980–1992) through the Peace Accords between the government and the guerrilla movement in 1992, the United Nations presented the... | Replying to comment: \"The man seems to know what he's doing. Populism is taking over in so many countries recently because people are fed up with the status quo. I would trust Bukele over whomever was in power prior to this. I've read about what he's done to lower crime, and its great! Maybe that country NEEDED a little authoritarianism?\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_5313",
+    "news_id": 172,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "Both things can be done at once. Too often, concerns about jobs and how workers in these sorts of industries will be negatively affected are used to push back against protecting the environment. There should be more focus on talking about how to create whatever combination of job training, welfare, and other such transition programs to help these people while we make the necessary changes, like stopping new coal plants.",
+    "context": "News Article: \"Australian court's historic rejection of coal mine highlights the impact of climate change\". Excerpt: In a groundbreaking decision, a court has used the impact on climate change as one of the reasons for rejecting a new coal mine in Australia. The proposed Rocky Hill mine is near Gloucester in New South Wales’ Hunter Valley. Chief Justice Brian Preston of NSW's Land and Environment Court said that the open-cut mine “would be in the wrong place at the wrong time”. He concluded that: The construction and operation of the mine, and the transportation and combustion of the coal from the mine, will result in the emission of greenhouse gases, which will contribute to climate change. Members of the... | Replying to comment: \"Most people will agree that while being more responsible for our actions that affect the environment is important, so is the fact that people should be able to provide for their families. Jobs are important as well.\"",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_3964",
+    "news_id": 22,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I think it's great that the coal mine was blocked. We need to keep moving towards more clean and sustainable sources of energy, that don't damage and pollute communities, and harm wildlife and the environment. Countless studies have demonstrated that clean and renewable energy sources benefit the environment and improve the health conditions of communities in their vicinity.",
+    "context": "News Article: \"Rejection of new Australian coal mine is a rare win for community environmental campaigners\". Excerpt: Environmentalists are celebrating a victory over a proposed coal development in the Australian state of New South Wales (NSW) after 11 years of debate and community protests. The Independent Planning Commission (IPC) for the NSW Southern Highlands blocked the plans for the proposed mine, saying the potential impacts of the project were ‘too great to be reasonably managed, and the social risks to the community are high.’ Korean-owned Hume Coal proposed applied to build the coal mine in Berrima. The company argued that the mine would ‘create 300+ jobs for locals’. The full IPC determination and...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_5874",
+    "news_id": 359,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "It would've been nice if the article at least had a brief paragraph giving context to the lockdown. I had no idea this was a thing and from reading the article, no idea if it's related to a pandemic or some political event or what. Had to look it up myself, but anyway, sad news. Hope the situation resolved for these poor people sooner than later.",
+    "context": "News Article: \"Video: Two months of lockdown in Kashmir\". Excerpt: This post was written by Grace Jolliffe and originally appeared on Video Volunteers , an award-winning international community media organisation based in India. A slightly edited version is published below as part of a content-sharing agreement. Barren roads, no public transportation, mobile services snapped, schools and colleges shut — Kashmir is still as silent as a grave. Daily life remains severely affected across the valley as the Indian-administered region of Jammy and Kashmir enters its 60th day of lockdown, with no conclusion of the dilemma in sight. Read Global Voices special...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_6085",
+    "news_id": 429,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "I think this is very good sign that they are withdrawing the bill and having debate on it.  It prevents a slippery slope that leads to less freedom of speech.  It is good sign that they can debate it even during such a once in a lifetime event like COVID which can increase the support of otherwise very restrictive measure against freedom. The slope can get very slippery and once it starts it is hard to go back.",
+    "context": "News Article: \"Tunisia has a disinformation problem, but (further) criminalizing speech won't solve it\". Excerpt: Following the outcry from human rights groups and citizens, a controversial bill that sought to criminalize the spread of ‘’false’’ and ‘’questionable’’ news online in Tunisia has been withdrawn. The bill, initiated by member of parliament (MP) Mabrouk Korchid, from the Tahya Tounes party (a member of the current governing coalition) and endorsed by 46 other MPs, took many Tunisians by surprise as the country is in lockdown because of the COVID-19 pandemic. It proposes amendments to articles 245 and 247 of the Tunisian penal code to ‘’prevent attacks on reputation and the spoiling of the...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
+  },
+  {
+    "id": "cocolofa_9800",
+    "news_id": 168,
+    "condition": "benchmark",
+    "domain": "news_comments",
+    "argument": "North Macedonia's challenging past makes for a troubling present. The ethnic and religious divisions that shattered Yugoslavia into pieces like Macedonia seem to linger. It's a place where a war criminal can become an MP and where ethnic nationalism is part of party's platform. What the country needs is unity among the different religious and ethnic groups, and political stability. This is accomplished easier with the Social Democrat candidate, but the country still has a way to go before it is fully unified. Stay strong, Macedonia.",
+    "context": "News Article: \"Ethnic Albanian votes will decide presidential elections in North Macedonia\". Excerpt: This story originally appeared on Meta.mk News Agency , a project of Metamorphosis Foundation. An edited version is published below as part of a content-sharing agreement . North Macedonia will vote on the second round of the presidential elections on Sunday, May 5, amid uncertainties about the turnout and the outcome. This is the first presidential elections since the right-wing VMRO-DPNME lost parliament majority in 2016 after ruling for 12 years, and will be the first major test of political support to the government coalition led by the pro-West Social Democratic Party (SDSM). The Social...",
+    "true_label": "Valid",
+    "raw_fallacy": "none"
   }
 ]

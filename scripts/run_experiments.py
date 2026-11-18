@@ -140,12 +140,18 @@ def main() -> None:
         default=None,
         help="Optional max number of items to run (for quick smoke testing)",
     )
+    parser.add_argument(
+        "--strict-model",
+        action="store_true",
+        help="Disable cross-model Gemini cache sharing and automatic fallback rotation",
+    )
     args = parser.parse_args()
 
     llm = LLMClient(
         model=args.model,
         base_url=args.base_url,
         cache_path=str(PROJECT_ROOT / "cache" / "llm_cache.db"),
+        strict_model=args.strict_model,
     )
     results_dir = PROJECT_ROOT / "results"
     results_dir.mkdir(parents=True, exist_ok=True)

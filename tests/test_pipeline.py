@@ -64,7 +64,7 @@ def test_taxonomy_bijection_and_normalizers():
 
 
 def test_datasets_integrity_and_balance():
-    """Verify context_triplets.json (132 items) and cocolofa_sample.json (100 items)."""
+    """Verify context_triplets.json (132 items) and cocolofa_sample.json (200 items)."""
     triplets_path = PROJECT_ROOT / "data" / "context_triplets.json"
     cocolofa_path = PROJECT_ROOT / "data" / "cocolofa_sample.json"
 
@@ -81,11 +81,12 @@ def test_datasets_integrity_and_balance():
         assert undermining_counts[cls] == 4
 
     cocolofa = json.loads(cocolofa_path.read_text(encoding="utf-8"))
-    assert len(cocolofa) == 100
+    assert len(cocolofa) == 200
+    assert len({c["id"] for c in cocolofa}) == 200
     cocolofa_counts = Counter(c["true_label"] for c in cocolofa)
     for cls in COCOLOFA_FALLACY_CLASSES:
-        assert cocolofa_counts[cls] == 11
-    assert cocolofa_counts["Valid"] == 12
+        assert cocolofa_counts[cls] == 18
+    assert cocolofa_counts["Valid"] == 56
 
 
 def test_llm_client_cache_and_json_extraction(tmp_path: Path):
@@ -364,4 +365,35 @@ def test_vbc_candidate_classes_filtering_and_no_abstention_with_context(tmp_path
     assert res["predicted_fine_label"] == "Appeal to Nature"
     assert res["predicted_label"] == "Appeal to Nature"
     assert res["violated_question_id"] == "q_9_1"
+
+
+def test_strict_model_disables_cross_model_cache_and_fallback(tmp_path: Path, monkeypatch):
+    """Verify strict_model=True only hits the requested model's cache and refuses fallback rotation."""
+    monkeypatch.setenv("GEMINI_API_KEY", "test-gemini-key")
+    cache_file = tmp_path / "strict_cache.db"
+
+    fallback_client = LLMClient(model="gemini-3.1-flash-lite", cache_path=str(cache_file))
+    fallback_client._save_cached_response(
+        [{"role": "system", "content": "sys"}, {"role": "user", "content": "prompt"}],
+        '{"predicted_label": "False Cause"}',
+    )
+
+    # Default non-strict mode reads fallback cache entry
+    non_strict = LLMClient(model="gemini-3.5-flash-lite", cache_path=str(cache_file))
+    assert non_strict.complete_json("sys", "prompt") == {"predicted_label": "False Cause"}
+
+    # Strict mode ignores 3.1 cache entry, invokes 3.5 directly, and blocks fallback switching
+    calls = []
+    strict = LLMClient(
+        model="gemini-3.5-flash-lite",
+        cache_path=str(cache_file),
+        strict_model=True,
+    )
+    strict._invoke_model = lambda msgs: (
+        calls.append(msgs) or '{"predicted_label": "Valid"}'
+    )
+    assert strict.complete_json("sys", "prompt") == {"predicted_label": "Valid"}
+    assert len(calls) == 1
+    assert strict._switch_to_next_gemini_model("daily quota reached") is False
+    assert strict.model == "gemini-3.5-flash-lite"
 

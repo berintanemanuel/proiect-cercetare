@@ -32,8 +32,14 @@ def clean_html(raw_html: str) -> str:
 def build_cocolofa_sample(
     output_path: str = "data/cocolofa_sample.json",
     seed: int = 42,
+    fallacy_per_class: int = 18,
+    valid_count: int = 56,
 ) -> list[dict]:
-    """Download CoCoLoFa test.json and sample 100 stratified instances (11 per fallacy + 12 Valid)."""
+    """Download CoCoLoFa test.json and sample 200 stratified instances (18 per fallacy + 56 Valid).
+
+    Draws the original 100-item base sample first (11 per fallacy + 12 Valid) so existing
+    cached evaluations remain identical, then appends deterministic extra samples.
+    """
     req = urllib.request.Request(COCOLOFA_TEST_URL, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req) as resp:
         articles = json.loads(resp.read().decode("utf-8"))
@@ -75,9 +81,20 @@ def build_cocolofa_sample(
 
     rng = random.Random(seed)
     sampled: list[dict] = []
+    base_ids: set[str] = set()
     for label in sorted(by_label.keys()):
-        k = 12 if label == "Valid" else 11
-        sampled.extend(rng.sample(by_label[label], k))
+        base_k = 12 if label == "Valid" else 11
+        chosen = rng.sample(by_label[label], base_k)
+        sampled.extend(chosen)
+        base_ids.update(item["id"] for item in chosen)
+
+    for label in sorted(by_label.keys()):
+        base_k = 12 if label == "Valid" else 11
+        target_k = valid_count if label == "Valid" else fallacy_per_class
+        extra_k = max(0, target_k - base_k)
+        if extra_k > 0:
+            remaining = [item for item in by_label[label] if item["id"] not in base_ids]
+            sampled.extend(rng.sample(remaining, extra_k))
 
     out_file = Path(output_path)
     out_file.parent.mkdir(parents=True, exist_ok=True)

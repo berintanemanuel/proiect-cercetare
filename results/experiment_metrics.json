@@ -387,12 +387,12 @@
     },
     "VBC_Ablated": {
       "fpr_bare": 1.0,
-      "fpr_supporting": 0.6591,
-      "fpr_all_valid": 0.8295,
-      "css": 0.3409,
+      "fpr_supporting": 0.6364,
+      "fpr_all_valid": 0.8182,
+      "css": 0.3636,
       "macro_f1": 0.9769,
       "accuracy": 0.9773,
-      "overall_accuracy": 0.4394,
+      "overall_accuracy": 0.447,
       "per_class_f1": {
         "Appeal to Authority": 1.0,
         "Appeal to Majority": 1.0,
@@ -572,19 +572,19 @@
           "Ad Hominem": 8,
           "Appeal to Nature": 8,
           "Appeal to Tradition": 8,
-          "Appeal to Worse Problems": 8,
-          "Valid": 15
+          "Appeal to Worse Problems": 7,
+          "Valid": 16
         }
       }
     },
     "VBC": {
-      "fpr_bare": 0.3409,
-      "fpr_supporting": 0.1591,
-      "fpr_all_valid": 0.25,
-      "css": 0.8182,
+      "fpr_bare": 0.3182,
+      "fpr_supporting": 0.1136,
+      "fpr_all_valid": 0.2159,
+      "css": 0.8636,
       "macro_f1": 0.9769,
       "accuracy": 0.9773,
-      "overall_accuracy": 0.8258,
+      "overall_accuracy": 0.8485,
       "per_class_f1": {
         "Appeal to Authority": 1.0,
         "Appeal to Majority": 1.0,
@@ -755,17 +755,17 @@
         },
         "Valid": {
           "Appeal to Authority": 0,
-          "Appeal to Majority": 1,
+          "Appeal to Majority": 3,
           "False Dilemma": 0,
-          "Hasty Generalization": 3,
-          "Slippery Slope": 1,
-          "False Cause": 2,
-          "Faulty Analogy": 5,
+          "Hasty Generalization": 0,
+          "Slippery Slope": 0,
+          "False Cause": 0,
+          "Faulty Analogy": 3,
           "Ad Hominem": 7,
-          "Appeal to Nature": 3,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 66
+          "Appeal to Nature": 1,
+          "Appeal to Tradition": 1,
+          "Appeal to Worse Problems": 4,
+          "Valid": 69
         }
       }
     }
@@ -774,26 +774,146 @@
     "ZeroShot": {
       "fpr_bare": 0.0,
       "fpr_supporting": 0.0,
-      "fpr_all_valid": 0.3333,
+      "fpr_all_valid": 0.3214,
       "css": 0.0,
-      "macro_f1": 0.8181,
+      "macro_f1": 0.7611,
+      "accuracy": 0.735,
+      "overall_accuracy": 0.735,
+      "per_class_f1": {
+        "Appeal to Authority": 0.6667,
+        "Appeal to Majority": 0.8235,
+        "False Dilemma": 0.8205,
+        "Hasty Generalization": 0.5946,
+        "Slippery Slope": 0.8182,
+        "Appeal to Nature": 0.8125,
+        "Appeal to Tradition": 0.8387,
+        "Appeal to Worse Problems": 0.7143
+      },
+      "confusion_matrix": {
+        "Appeal to Authority": {
+          "Appeal to Authority": 9,
+          "Appeal to Majority": 1,
+          "False Dilemma": 1,
+          "Hasty Generalization": 2,
+          "Slippery Slope": 1,
+          "Appeal to Nature": 0,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 0,
+          "Valid": 4
+        },
+        "Appeal to Majority": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 14,
+          "False Dilemma": 0,
+          "Hasty Generalization": 1,
+          "Slippery Slope": 0,
+          "Appeal to Nature": 0,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 0,
+          "Valid": 3
+        },
+        "False Dilemma": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 0,
+          "False Dilemma": 16,
+          "Hasty Generalization": 1,
+          "Slippery Slope": 0,
+          "Appeal to Nature": 0,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 1,
+          "Valid": 0
+        },
+        "Hasty Generalization": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 0,
+          "False Dilemma": 2,
+          "Hasty Generalization": 11,
+          "Slippery Slope": 1,
+          "Appeal to Nature": 0,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 0,
+          "Valid": 4
+        },
+        "Slippery Slope": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 0,
+          "False Dilemma": 0,
+          "Hasty Generalization": 0,
+          "Slippery Slope": 18,
+          "Appeal to Nature": 0,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 0,
+          "Valid": 0
+        },
+        "Appeal to Nature": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 0,
+          "False Dilemma": 0,
+          "Hasty Generalization": 1,
+          "Slippery Slope": 0,
+          "Appeal to Nature": 13,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 1,
+          "Valid": 3
+        },
+        "Appeal to Tradition": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 0,
+          "False Dilemma": 1,
+          "Hasty Generalization": 0,
+          "Slippery Slope": 0,
+          "Appeal to Nature": 1,
+          "Appeal to Tradition": 13,
+          "Appeal to Worse Problems": 0,
+          "Valid": 3
+        },
+        "Appeal to Worse Problems": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 0,
+          "False Dilemma": 0,
+          "Hasty Generalization": 0,
+          "Slippery Slope": 0,
+          "Appeal to Nature": 0,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 15,
+          "Valid": 3
+        },
+        "Valid": {
+          "Appeal to Authority": 0,
+          "Appeal to Majority": 1,
+          "False Dilemma": 1,
+          "Hasty Generalization": 3,
+          "Slippery Slope": 6,
+          "Appeal to Nature": 0,
+          "Appeal to Tradition": 0,
+          "Appeal to Worse Problems": 7,
+          "Valid": 38
+        }
+      }
+    },
+    "CoT": {
+      "fpr_bare": 0.0,
+      "fpr_supporting": 0.0,
+      "fpr_all_valid": 0.1607,
+      "css": 0.0,
+      "macro_f1": 0.8078,
       "accuracy": 0.79,
       "overall_accuracy": 0.79,
       "per_class_f1": {
-        "Appeal to Authority": 0.625,
+        "Appeal to Authority": 0.8,
         "Appeal to Majority": 0.9091,
         "False Dilemma": 0.8333,
-        "Hasty Generalization": 0.5556,
-        "Slippery Slope": 0.9167,
-        "Appeal to Nature": 0.9524,
-        "Appeal to Tradition": 0.9524,
+        "Hasty Generalization": 0.5882,
+        "Slippery Slope": 0.8571,
+        "Appeal to Nature": 0.7333,
+        "Appeal to Tradition": 0.9412,
         "Appeal to Worse Problems": 0.8
       },
       "confusion_matrix": {
         "Appeal to Authority": {
-          "Appeal to Authority": 5,
-          "Appeal to Majority": 1,
-          "False Dilemma": 0,
+          "Appeal to Authority": 12,
+          "Appeal to Majority": 0,
+          "False Dilemma": 1,
           "Hasty Generalization": 1,
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
@@ -803,163 +923,43 @@
         },
         "Appeal to Majority": {
           "Appeal to Authority": 0,
-          "Appeal to Majority": 10,
+          "Appeal to Majority": 15,
           "False Dilemma": 0,
           "Hasty Generalization": 1,
           "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 0
-        },
-        "False Dilemma": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 10,
-          "Hasty Generalization": 0,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 1,
-          "Valid": 0
-        },
-        "Hasty Generalization": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 2,
-          "Hasty Generalization": 5,
-          "Slippery Slope": 2,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
           "Valid": 2
         },
-        "Slippery Slope": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 0,
-          "Hasty Generalization": 0,
-          "Slippery Slope": 11,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 0
-        },
-        "Appeal to Nature": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 0,
-          "Hasty Generalization": 0,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 10,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 1
-        },
-        "Appeal to Tradition": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 0,
-          "Hasty Generalization": 0,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 10,
-          "Appeal to Worse Problems": 0,
-          "Valid": 1
-        },
-        "Appeal to Worse Problems": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 0,
-          "Hasty Generalization": 0,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 10,
-          "Valid": 1
-        },
-        "Valid": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 1,
-          "Hasty Generalization": 0,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 3,
-          "Valid": 8
-        }
-      }
-    },
-    "CoT": {
-      "fpr_bare": 0.0,
-      "fpr_supporting": 0.0,
-      "fpr_all_valid": 0.1667,
-      "css": 0.0,
-      "macro_f1": 0.8047,
-      "accuracy": 0.77,
-      "overall_accuracy": 0.77,
-      "per_class_f1": {
-        "Appeal to Authority": 0.625,
-        "Appeal to Majority": 0.8571,
-        "False Dilemma": 0.8148,
-        "Hasty Generalization": 0.6,
-        "Slippery Slope": 0.9565,
-        "Appeal to Nature": 0.9,
-        "Appeal to Tradition": 0.8421,
-        "Appeal to Worse Problems": 0.8421
-      },
-      "confusion_matrix": {
-        "Appeal to Authority": {
-          "Appeal to Authority": 5,
-          "Appeal to Majority": 1,
-          "False Dilemma": 1,
-          "Hasty Generalization": 1,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 3
-        },
-        "Appeal to Majority": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 9,
-          "False Dilemma": 0,
-          "Hasty Generalization": 1,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 1
-        },
         "False Dilemma": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
-          "False Dilemma": 11,
-          "Hasty Generalization": 0,
+          "False Dilemma": 15,
+          "Hasty Generalization": 1,
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 0
+          "Valid": 2
         },
         "Hasty Generalization": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
           "False Dilemma": 2,
-          "Hasty Generalization": 6,
+          "Hasty Generalization": 10,
           "Slippery Slope": 1,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 2
+          "Valid": 5
         },
         "Slippery Slope": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
-          "Slippery Slope": 11,
+          "Slippery Slope": 18,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
@@ -969,23 +969,23 @@
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
           "False Dilemma": 0,
-          "Hasty Generalization": 0,
+          "Hasty Generalization": 1,
           "Slippery Slope": 0,
-          "Appeal to Nature": 9,
+          "Appeal to Nature": 11,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 2
+          "Valid": 6
         },
         "Appeal to Tradition": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
-          "False Dilemma": 1,
-          "Hasty Generalization": 0,
+          "False Dilemma": 0,
+          "Hasty Generalization": 1,
           "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 8,
+          "Appeal to Nature": 1,
+          "Appeal to Tradition": 16,
           "Appeal to Worse Problems": 0,
-          "Valid": 2
+          "Valid": 0
         },
         "Appeal to Worse Problems": {
           "Appeal to Authority": 0,
@@ -995,91 +995,91 @@
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 8,
-          "Valid": 3
+          "Appeal to Worse Problems": 14,
+          "Valid": 4
         },
         "Valid": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
-          "False Dilemma": 1,
+          "False Dilemma": 0,
           "Hasty Generalization": 1,
-          "Slippery Slope": 0,
+          "Slippery Slope": 5,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 10
+          "Appeal to Worse Problems": 3,
+          "Valid": 47
         }
       }
     },
     "VBC_Ablated": {
       "fpr_bare": 0.0,
       "fpr_supporting": 0.0,
-      "fpr_all_valid": 0.25,
+      "fpr_all_valid": 0.2143,
       "css": 0.0,
-      "macro_f1": 0.7632,
-      "accuracy": 0.75,
-      "overall_accuracy": 0.75,
+      "macro_f1": 0.7493,
+      "accuracy": 0.745,
+      "overall_accuracy": 0.745,
       "per_class_f1": {
-        "Appeal to Authority": 0.3077,
-        "Appeal to Majority": 0.9091,
+        "Appeal to Authority": 0.6897,
+        "Appeal to Majority": 0.8824,
         "False Dilemma": 0.8571,
-        "Hasty Generalization": 0.5,
-        "Slippery Slope": 0.8462,
-        "Appeal to Nature": 0.9,
-        "Appeal to Tradition": 0.9524,
-        "Appeal to Worse Problems": 0.8333
+        "Hasty Generalization": 0.4286,
+        "Slippery Slope": 0.8,
+        "Appeal to Nature": 0.7742,
+        "Appeal to Tradition": 0.8485,
+        "Appeal to Worse Problems": 0.7143
       },
       "confusion_matrix": {
         "Appeal to Authority": {
-          "Appeal to Authority": 2,
-          "Appeal to Majority": 1,
+          "Appeal to Authority": 10,
+          "Appeal to Majority": 0,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
-          "Slippery Slope": 1,
+          "Slippery Slope": 2,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 7
+          "Valid": 6
         },
         "Appeal to Majority": {
           "Appeal to Authority": 0,
-          "Appeal to Majority": 10,
+          "Appeal to Majority": 15,
           "False Dilemma": 0,
           "Hasty Generalization": 1,
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
+          "Appeal to Tradition": 1,
           "Appeal to Worse Problems": 0,
-          "Valid": 0
+          "Valid": 1
         },
         "False Dilemma": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
-          "False Dilemma": 9,
+          "False Dilemma": 15,
           "Hasty Generalization": 0,
           "Slippery Slope": 1,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 1,
-          "Valid": 0
+          "Valid": 1
         },
         "Hasty Generalization": {
-          "Appeal to Authority": 0,
+          "Appeal to Authority": 1,
           "Appeal to Majority": 0,
           "False Dilemma": 1,
-          "Hasty Generalization": 5,
-          "Slippery Slope": 2,
+          "Hasty Generalization": 6,
+          "Slippery Slope": 3,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 3
+          "Valid": 7
         },
         "Slippery Slope": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
-          "Slippery Slope": 11,
+          "Slippery Slope": 18,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
@@ -1091,21 +1091,21 @@
           "False Dilemma": 0,
           "Hasty Generalization": 1,
           "Slippery Slope": 0,
-          "Appeal to Nature": 9,
+          "Appeal to Nature": 12,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 1
+          "Appeal to Worse Problems": 1,
+          "Valid": 4
         },
         "Appeal to Tradition": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 10,
+          "Slippery Slope": 1,
+          "Appeal to Nature": 1,
+          "Appeal to Tradition": 14,
           "Appeal to Worse Problems": 0,
-          "Valid": 1
+          "Valid": 2
         },
         "Appeal to Worse Problems": {
           "Appeal to Authority": 0,
@@ -1115,91 +1115,91 @@
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 10,
-          "Valid": 0
+          "Appeal to Worse Problems": 15,
+          "Valid": 2
         },
         "Valid": {
           "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
-          "False Dilemma": 0,
+          "Appeal to Majority": 1,
+          "False Dilemma": 1,
           "Hasty Generalization": 1,
-          "Slippery Slope": 0,
+          "Slippery Slope": 2,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 2,
-          "Valid": 9
+          "Appeal to Worse Problems": 7,
+          "Valid": 44
         }
       }
     },
     "VBC": {
       "fpr_bare": 0.0,
       "fpr_supporting": 0.0,
-      "fpr_all_valid": 0.0833,
+      "fpr_all_valid": 0.1786,
       "css": 0.0,
-      "macro_f1": 0.8185,
-      "accuracy": 0.8,
-      "overall_accuracy": 0.8,
+      "macro_f1": 0.7498,
+      "accuracy": 0.75,
+      "overall_accuracy": 0.75,
       "per_class_f1": {
-        "Appeal to Authority": 0.7778,
-        "Appeal to Majority": 0.8571,
-        "False Dilemma": 0.8571,
-        "Hasty Generalization": 0.5,
-        "Slippery Slope": 0.8462,
-        "Appeal to Nature": 0.9,
-        "Appeal to Tradition": 0.9524,
-        "Appeal to Worse Problems": 0.8571
+        "Appeal to Authority": 0.6667,
+        "Appeal to Majority": 0.8824,
+        "False Dilemma": 0.8485,
+        "Hasty Generalization": 0.4286,
+        "Slippery Slope": 0.8,
+        "Appeal to Nature": 0.7742,
+        "Appeal to Tradition": 0.8485,
+        "Appeal to Worse Problems": 0.75
       },
       "confusion_matrix": {
         "Appeal to Authority": {
-          "Appeal to Authority": 7,
-          "Appeal to Majority": 1,
+          "Appeal to Authority": 10,
+          "Appeal to Majority": 0,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
-          "Slippery Slope": 1,
+          "Slippery Slope": 2,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 2
+          "Valid": 6
         },
         "Appeal to Majority": {
           "Appeal to Authority": 0,
-          "Appeal to Majority": 9,
+          "Appeal to Majority": 15,
           "False Dilemma": 0,
           "Hasty Generalization": 1,
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
-          "Appeal to Tradition": 0,
+          "Appeal to Tradition": 1,
           "Appeal to Worse Problems": 0,
           "Valid": 1
         },
         "False Dilemma": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
-          "False Dilemma": 9,
+          "False Dilemma": 14,
           "Hasty Generalization": 0,
           "Slippery Slope": 1,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 1,
-          "Valid": 0
+          "Valid": 2
         },
         "Hasty Generalization": {
-          "Appeal to Authority": 0,
+          "Appeal to Authority": 1,
           "Appeal to Majority": 0,
           "False Dilemma": 1,
-          "Hasty Generalization": 5,
-          "Slippery Slope": 2,
+          "Hasty Generalization": 6,
+          "Slippery Slope": 3,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
-          "Valid": 3
+          "Valid": 7
         },
         "Slippery Slope": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
-          "Slippery Slope": 11,
+          "Slippery Slope": 18,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
           "Appeal to Worse Problems": 0,
@@ -1211,21 +1211,21 @@
           "False Dilemma": 0,
           "Hasty Generalization": 1,
           "Slippery Slope": 0,
-          "Appeal to Nature": 9,
+          "Appeal to Nature": 12,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 1
+          "Appeal to Worse Problems": 1,
+          "Valid": 4
         },
         "Appeal to Tradition": {
           "Appeal to Authority": 0,
           "Appeal to Majority": 0,
           "False Dilemma": 0,
           "Hasty Generalization": 0,
-          "Slippery Slope": 0,
-          "Appeal to Nature": 0,
-          "Appeal to Tradition": 10,
+          "Slippery Slope": 1,
+          "Appeal to Nature": 1,
+          "Appeal to Tradition": 14,
           "Appeal to Worse Problems": 0,
-          "Valid": 1
+          "Valid": 2
         },
         "Appeal to Worse Problems": {
           "Appeal to Authority": 0,
@@ -1235,19 +1235,19 @@
           "Slippery Slope": 0,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 9,
-          "Valid": 1
+          "Appeal to Worse Problems": 15,
+          "Valid": 2
         },
         "Valid": {
-          "Appeal to Authority": 0,
-          "Appeal to Majority": 0,
+          "Appeal to Authority": 1,
+          "Appeal to Majority": 1,
           "False Dilemma": 0,
           "Hasty Generalization": 1,
-          "Slippery Slope": 0,
+          "Slippery Slope": 2,
           "Appeal to Nature": 0,
           "Appeal to Tradition": 0,
-          "Appeal to Worse Problems": 0,
-          "Valid": 11
+          "Appeal to Worse Problems": 5,
+          "Valid": 46
         }
       }
     }
